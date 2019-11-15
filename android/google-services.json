@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1085611589035",
+    "firebase_url": "https://retrosnake2-9a0dd.firebaseio.com",
+    "project_id": "retrosnake2-9a0dd",
+    "storage_bucket": "retrosnake2-9a0dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085611589035:android:d778615766a0a07e",
+        "android_client_info": {
+          "package_name": "com.kononowicz24.retrosnake2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085611589035-ivj7gl2ot5vodhg3db87bfse4dflku9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kononowicz24.retrosnake2",
+            "certificate_hash": "39767d9faf4305b4a2e177996c60c6493e67fdf5"
+          }
+        },
+        {
+          "client_id": "1085611589035-a7acdbmob59h7k83vs83brc2o6gonlj2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1085611589035-a7acdbmob59h7k83vs83brc2o6gonlj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuBeUBZjihQVoo5c8M6-oFQn6lEuE2KGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085611589035-a7acdbmob59h7k83vs83brc2o6gonlj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
