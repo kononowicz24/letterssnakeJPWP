@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="default_web_client_id" translatable="false">1085611589035-a7acdbmob59h7k83vs83brc2o6gonlj2.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://retrosnake2-9a0dd.firebaseio.com</string>
+    <string name="firebase_database_url" translatable="false">https://letterssnake-9a0dd.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">1085611589035</string>
     <string name="google_api_key" translatable="false">AIzaSyCuBeUBZjihQVoo5c8M6-oFQn6lEuE2KGM</string>
     <string name="google_app_id" translatable="false">1:1085611589035:android:d778615766a0a07e</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCuBeUBZjihQVoo5c8M6-oFQn6lEuE2KGM</string>
-    <string name="google_storage_bucket" translatable="false">retrosnake2-9a0dd.appspot.com</string>
-    <string name="project_id" translatable="false">retrosnake2-9a0dd</string>
+    <string name="google_storage_bucket" translatable="false">letterssnake-9a0dd.appspot.com</string>
+    <string name="project_id" translatable="false">letterssnake-9a0dd</string>
 </resources>

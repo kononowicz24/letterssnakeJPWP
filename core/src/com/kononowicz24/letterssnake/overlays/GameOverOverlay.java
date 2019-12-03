@@ -1,8 +1,8 @@
-package com.kononowicz24.retrosnake2.overlays;
+package com.kononowicz24.letterssnake.overlays;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
-import com.kononowicz24.retrosnake2.RetroSnake;
+import com.kononowicz24.letterssnake.LettersSnake;
 
 /**
  * Created by k24 on 20.01.19.
@@ -10,8 +10,8 @@ import com.kononowicz24.retrosnake2.RetroSnake;
 
 public class GameOverOverlay extends Overlay {
     private Texture texture;
-    public GameOverOverlay(RetroSnake rS) {
-        super(rS);
+    public GameOverOverlay(LettersSnake lS) {
+        super(lS);
         texture = new Texture(Gdx.files.internal("bound.png"));
     }
     @Override
@@ -23,8 +23,8 @@ public class GameOverOverlay extends Overlay {
     @Override
     public void render() {
         if (visible) {
-            rS.getBatch().draw(texture, rS.dX*2, rS.dY*7, (rS.getxDimm()-2)*rS.dX, 5*rS.dY );
-            rS.getFontManager().font2dX_inv.draw(rS.getBatch(), "Game Over", rS.dX*3, rS.dY*10);//todo localization
+            lS.getBatch().draw(texture, lS.dX*2, lS.dY*7, (lS.getxDimm()-2)*lS.dX, 5*lS.dY );
+            lS.getFontManager().font2dX_inv.draw(lS.getBatch(), "Game Over", lS.dX*3, lS.dY*10);//todo localization
         }
     }
 

@@ -1,12 +1,12 @@
-package com.kononowicz24.retrosnake2.overlays;
+package com.kononowicz24.letterssnake.overlays;
 
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.input.GestureDetector.GestureListener;
 import com.badlogic.gdx.math.Vector2;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.helpers.Disposable;
-import com.kononowicz24.retrosnake2.helpers.Hideable;
-import com.kononowicz24.retrosnake2.helpers.Renderable;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.helpers.Disposable;
+import com.kononowicz24.letterssnake.helpers.Hideable;
+import com.kononowicz24.letterssnake.helpers.Renderable;
 
 
 /**
@@ -16,9 +16,9 @@ import com.kononowicz24.retrosnake2.helpers.Renderable;
 public abstract class Overlay implements Renderable, Disposable, Hideable, InputProcessor, GestureListener {
     protected boolean visible;
     protected boolean semiVisible;
-    protected RetroSnake rS;
-    public Overlay(RetroSnake rS) {
-        this.rS = rS;
+    protected LettersSnake lS;
+    public Overlay(LettersSnake lS) {
+        this.lS = lS;
         visible = false;
         semiVisible = false;
     }

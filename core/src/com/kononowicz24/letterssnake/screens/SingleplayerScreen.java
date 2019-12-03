@@ -1,19 +1,17 @@
-package com.kononowicz24.retrosnake2.screens;
+package com.kononowicz24.letterssnake.screens;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.TimeUtils;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.helpers.FoodRandomizer;
-import com.kononowicz24.retrosnake2.helpers.SnakeDirection;
-import com.kononowicz24.retrosnake2.helpers.Steppable;
-import com.kononowicz24.retrosnake2.layoutelems.Boundary;
-import com.kononowicz24.retrosnake2.overlays.GameOverOverlay;
-import com.kononowicz24.retrosnake2.playables.Food;
-import com.kononowicz24.retrosnake2.playables.PlayerSnake;
-import com.kononowicz24.retrosnake2.playables.Snake;
-import com.kononowicz24.retrosnake2.playables.TimedPremiumFood;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.helpers.FoodRandomizer;
+import com.kononowicz24.letterssnake.helpers.SnakeDirection;
+import com.kononowicz24.letterssnake.helpers.Steppable;
+import com.kononowicz24.letterssnake.layoutelems.Boundary;
+import com.kononowicz24.letterssnake.overlays.GameOverOverlay;
+import com.kononowicz24.letterssnake.playables.Food;
+import com.kononowicz24.letterssnake.playables.PlayerSnake;
+import com.kononowicz24.letterssnake.playables.Snake;
+import com.kononowicz24.letterssnake.playables.TimedPremiumFood;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -23,7 +21,7 @@ import java.util.Iterator;
  */
 
 public class SingleplayerScreen implements Screen {
-    private RetroSnake rS;
+    private LettersSnake lS;
     private Snake playersSnake;
     private ArrayList<Food> foods;
     private ArrayList<Snake> snakes;
@@ -35,16 +33,16 @@ public class SingleplayerScreen implements Screen {
     private long stepDuration;
      // na sztywno, znaleźć metodą prób i błedów
 
-    public SingleplayerScreen(RetroSnake rS) {
-        this.rS = rS;
-        boundary = new Boundary(rS);
+    public SingleplayerScreen(LettersSnake lS) {
+        this.lS = lS;
+        boundary = new Boundary(lS);
         foods = new ArrayList<Food>();
         snakes = new ArrayList<Snake>();
         millis = TimeUtils.millis();
-        foodRandomizer = new FoodRandomizer(rS, snakes, foods, new Vector2(rS.getxDimm(), rS.getyDimm()));
-        gameOverOverlay = new GameOverOverlay(rS);
+        foodRandomizer = new FoodRandomizer(lS, snakes, foods, new Vector2(lS.getxDimm(), lS.getyDimm()));
+        gameOverOverlay = new GameOverOverlay(lS);
         gameOverOverlay.hide();
-        playersSnake = new PlayerSnake(rS, foods, foodRandomizer, gameOverOverlay);
+        playersSnake = new PlayerSnake(lS, foods, foodRandomizer, gameOverOverlay);
         snakes.add(playersSnake);
         stepDuration = 180L;
         foodRandomizer.addFood(playersSnake);
@@ -176,7 +174,7 @@ public class SingleplayerScreen implements Screen {
 
     @Override
     public void render() {
-        rS.getBatch().draw(rS.bgTexOn, 0, 0, rS.xR, rS.yR);
+        lS.getBatch().draw(lS.bgTexOn, 0, 0, lS.xR, lS.yR);
         for (Snake snake: snakes) {
             snake.render();
         }
@@ -237,7 +235,7 @@ public class SingleplayerScreen implements Screen {
 
     @Override
     public void goRestart() {
-        rS.changeScreen(MenuState.PLAYARENA);
+        lS.changeScreen(MenuState.PLAYARENA);
     }
 
     @Override

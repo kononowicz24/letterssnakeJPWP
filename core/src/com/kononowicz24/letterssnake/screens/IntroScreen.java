@@ -1,18 +1,18 @@
-package com.kononowicz24.retrosnake2.screens;
+package com.kononowicz24.letterssnake.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
-import com.kononowicz24.retrosnake2.RetroSnake;
+import com.kononowicz24.letterssnake.LettersSnake;
 
 /**
  * Created by k24 on 12.06.18.
  */
 
 public class IntroScreen implements Screen {
-    private RetroSnake rS;
+    private LettersSnake lS;
     private float timer1, animTimer1;
     private Texture logoK24;
     private Texture logoRs2;
@@ -21,8 +21,8 @@ public class IntroScreen implements Screen {
     private final int FRAME_COLS = 3;
     private final int FRAME_ROWS = 6;
     private TextureRegion[] snakeFrames;
-    public IntroScreen(RetroSnake rS) {
-        this.rS = rS;
+    public IntroScreen(LettersSnake lS) {
+        this.lS = lS;
         logoK24 = new Texture(Gdx.files.internal("logok24.png"));
         logoRs2 = new Texture(Gdx.files.internal("logors2.png"));
         snakeTexture = new Texture(Gdx.files.internal("2anim.png"));
@@ -53,19 +53,19 @@ public class IntroScreen implements Screen {
     public void render() {
         timer1+=Gdx.graphics.getDeltaTime();
         if (timer1<2.0f || (timer1>2.2f && timer1<2.4f) || (timer1>2.7f && timer1<2.85f)) {//flickerowanie tła przez chwile
-            rS.getBatch().draw(rS.bgTexOff, 0, 0, rS.xR, rS.yR);
+            lS.getBatch().draw(lS.bgTexOff, 0, 0, lS.xR, lS.yR);
         } else {
-            rS.getBatch().draw(rS.bgTexOn, 0, 0, rS.xR, rS.yR);
+            lS.getBatch().draw(lS.bgTexOn, 0, 0, lS.xR, lS.yR);
         }//
         if (timer1<5.00f) {
-            rS.getBatch().draw(logoK24, 0, 0, rS.xR, rS.yR);
+            lS.getBatch().draw(logoK24, 0, 0, lS.xR, lS.yR);
         } else {
-            rS.getBatch().draw(logoRs2, 0, 0, rS.xR, rS.yR);
+            lS.getBatch().draw(logoRs2, 0, 0, lS.xR, lS.yR);
             TextureRegion currentFrame = snakeAnimation.getKeyFrame(animTimer1, true);
-            rS.getBatch().draw(currentFrame, rS.xR/3.0f, rS.yR/3.0f, rS.xR/3.0f, rS.xR/3.0f);
+            lS.getBatch().draw(currentFrame, lS.xR/3.0f, lS.yR/3.0f, lS.xR/3.0f, lS.xR/3.0f);
         }
         if (timer1>10.0f) {
-            rS.changeScreen(MenuState.MAIN_MENU);
+            lS.changeScreen(MenuState.MAIN_MENU);
         }
     }
 

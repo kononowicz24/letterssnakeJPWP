@@ -1,4 +1,4 @@
-package com.kononowicz24.retrosnake2;
+package com.kononowicz24.letterssnake;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -7,15 +7,15 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.input.GestureDetector;
-import com.kononowicz24.retrosnake2.helpers.FontManager;
-import com.kononowicz24.retrosnake2.screens.IntroScreen;
-import com.kononowicz24.retrosnake2.screens.MainMenuScreen;
-import com.kononowicz24.retrosnake2.screens.Screen;
-import com.kononowicz24.retrosnake2.screens.MenuState;
-import com.kononowicz24.retrosnake2.screens.SingleplayerScreen;
+import com.kononowicz24.letterssnake.helpers.FontManager;
+import com.kononowicz24.letterssnake.screens.IntroScreen;
+import com.kononowicz24.letterssnake.screens.MainMenuScreen;
+import com.kononowicz24.letterssnake.screens.Screen;
+import com.kononowicz24.letterssnake.screens.MenuState;
+import com.kononowicz24.letterssnake.screens.SingleplayerScreen;
 
 
-public class RetroSnake extends ApplicationAdapter {
+public class LettersSnake extends ApplicationAdapter {
 	private SpriteBatch batch;
     private FontManager fontManager;
 	public Texture bgTexOff;

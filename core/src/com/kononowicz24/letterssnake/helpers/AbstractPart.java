@@ -1,15 +1,14 @@
-package com.kononowicz24.retrosnake2.helpers;
+package com.kononowicz24.letterssnake.helpers;
 
-import com.badlogic.gdx.graphics.Texture;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.playables.Part;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.playables.Part;
 
 /**
  * Created by k24 on 17.01.19.
  */
 
 public class AbstractPart extends Part {
-    public AbstractPart(RetroSnake rS, int x, int y) {
-        super(rS, x, y, rS.getEmptyTexture());
+    public AbstractPart(LettersSnake lS, int x, int y) {
+        super(lS, x, y, lS.getEmptyTexture());
     }
 }

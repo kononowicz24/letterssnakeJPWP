@@ -1,12 +1,10 @@
-package com.kononowicz24.retrosnake2.playables;
+package com.kononowicz24.letterssnake.playables;
 
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.helpers.Disposable;
-import com.kononowicz24.retrosnake2.helpers.Renderable;
-
-import java.util.ArrayList;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.helpers.Disposable;
+import com.kononowicz24.letterssnake.helpers.Renderable;
 
 /**
  * Created by k24 on 02.09.18.
@@ -14,8 +12,8 @@ import java.util.ArrayList;
 
 public abstract class Food extends Part implements Renderable, Disposable {
     private Sound sound;
-    public Food(RetroSnake rS, int x, int y, Texture tex) {
-        super(rS, x, y, tex);
+    public Food(LettersSnake lS, int x, int y, Texture tex) {
+        super(lS, x, y, tex);
     }
 
     @Override

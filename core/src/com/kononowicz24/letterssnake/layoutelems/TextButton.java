@@ -1,14 +1,13 @@
-package com.kononowicz24.retrosnake2.layoutelems;
+package com.kononowicz24.letterssnake.layoutelems;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.Rectangle;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.helpers.Action;
-import com.kononowicz24.retrosnake2.helpers.Disposable;
-import com.kononowicz24.retrosnake2.helpers.Renderable;
-import com.kononowicz24.retrosnake2.screens.MenuState;
-import com.kononowicz24.retrosnake2.screens.Screen;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.helpers.Action;
+import com.kononowicz24.letterssnake.helpers.Disposable;
+import com.kononowicz24.letterssnake.helpers.Renderable;
+import com.kononowicz24.letterssnake.screens.Screen;
 
 
 /**
@@ -16,19 +15,19 @@ import com.kononowicz24.retrosnake2.screens.Screen;
  */
 
 public class TextButton extends Sprite implements Disposable, Renderable {
-    private RetroSnake rS;
+    private LettersSnake lS;
     private Action action;
     private Rectangle area;
     private Screen activeScreen;
-    public TextButton(RetroSnake rS, String napis, Action action, float x, float y, Screen activeScreen) {
+    public TextButton(LettersSnake lS, String napis, Action action, float x, float y, Screen activeScreen) {
         super(new Texture("boundary.png"));
-        this.rS=rS;
+        this.lS=lS;
         this.action=action;
         this.activeScreen = activeScreen;
         this.setX(x);
         this.setY(y);
         this.setOrigin(0,0);
-        this.setScale(8*rS.dX/this.getTexture().getWidth(), 8*rS.dY/this.getTexture().getHeight());
+        this.setScale(8*lS.dX/this.getTexture().getWidth(), 8*lS.dY/this.getTexture().getHeight());
         area = new Rectangle(this.getX(), this.getY(), this.getWidth(), this.getHeight());
     }
     @Override
@@ -38,10 +37,10 @@ public class TextButton extends Sprite implements Disposable, Renderable {
 
     @Override
     public void render() {
-        this.draw(rS.getBatch());
+        this.draw(lS.getBatch());
     }
     public void touch(float x, float y) {
-        if (area.contains(x, rS.yR-y)) {
+        if (area.contains(x, lS.yR-y)) {
             switch (action) {
                 case BACK:
             }

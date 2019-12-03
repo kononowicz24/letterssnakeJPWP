@@ -1,4 +1,4 @@
-package com.kononowicz24.retrosnake2.helpers;
+package com.kononowicz24.letterssnake.helpers;
 
 /**
  * Created by k24 on 20.01.19.

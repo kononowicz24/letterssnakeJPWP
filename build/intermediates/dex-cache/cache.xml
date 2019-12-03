@@ -29,6 +29,24 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-11.8.0_fd4633ee2f0249ce7679d75c4dfb6dcf87345b6f/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_70ffb5de458f73cc64cc50f4bf531e7e605e18e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.9.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="376ea3faa93f6de5804f422b74420f05e7b9fa08">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-2.9.3_d365c7ea3594fa5935d97db7d73a805dfa1aa3b5.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.8.0/jars/classes.jar"
         jumboMode="true"
@@ -56,6 +74,24 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-freetype-1.9.3_e0dfe25c3083eec59ef03f1191d59447356ab1ae/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_989be59f9d2a0a34022b2482a43693448f8c0b58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a7760a45a6c9f425aaa43ef391a8cf28a8bcb4a1">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-11.8.0_d63ab6d3603532b4163617c3a6b181310ec29f3c.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/11.8.0/jars/classes.jar"
         jumboMode="true"
@@ -63,6 +99,24 @@
         revision="27.0.2"
         sha1="f4daa3cdaa8476e1e952279e9a7b3ba6ac8012fe">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-11.8.0_a5a183aafb1a34425f8bb7dbee691b58225cd070/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_ad4656f8ae7117baef7ed4586612dc5bb6f8d00e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="aeca0a0ab86831ec59a54723205ce9341ac22d1b">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-11.8.0_2e31ce69195401d7fb6e662f794de56c1b35bc74.jar" />
     </item>
     <item
         is-multidex="true"
@@ -92,6 +146,15 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-11.8.0_0be9fbcccfe1df632a2e80fd278867884044e33a/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-11.8.0_27e4d3b1b7c39aec32a05a45aa0923ed59cbbe62.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
         jumboMode="true"
@@ -110,6 +173,33 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.4.2_edccd23ad7aa0b862a3a0d09c2c10ac458d7b55b/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f4daa3cdaa8476e1e952279e9a7b3ba6ac8012fe">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-11.8.0_08fc7087f296eb61eb1a4dce02d1fd68262d60a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="6746a3078625563a9eb381920f34e47ccd6bab87">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-11.8.0_b03c6dc51978b72159ec3affc01faa6adbb028a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="0a23c4daa97697118d96f2b09d1dbaf9ea943d8d">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-11.8.0_6630d0eeadff743c2f6568a8646d1c4b234e5937.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.8.0/jars/classes.jar"
         jumboMode="true"
@@ -126,6 +216,15 @@
         revision="27.0.2"
         sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-11.8.0_3d45a1c72be34e223c60caaa31b761a57fcddc51/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_1435cb2baaf01c9202fb6d39e3cb58f082f7d30b.jar" />
     </item>
     <item
         is-multidex="true"
@@ -155,6 +254,24 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-11.8.0_b6a66fcbefc64a0c42b93485f404067f8b417839/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="264ad23f9752aabecfa41115c52a25a023a08839">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-11.8.0_9167933d69053a2f58266db2bebee8241152ab13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="13325453543d941c5fb0e0cc09a559fc46a3907e">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-beta-1.2.8_bde333e7d17d5ca6e491fe1cc7cde19ca3fbb96d.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.8.0/jars/classes.jar"
         jumboMode="true"
@@ -171,6 +288,24 @@
         revision="27.0.2"
         sha1="264ad23f9752aabecfa41115c52a25a023a08839">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-11.8.0_b17c146845f460197ce21deed6184335dc82ffa9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.6.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="5ab7b6af3e80111065d8aae2ab9694939bf4d289">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-crashlytics-core-2.6.3_243f90bbafa9a824c390f199da09d1c64cfcc8f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.8.0_75f95f17eba8696b46706842d79f14608be0172e.jar" />
     </item>
     <item
         is-multidex="true"
@@ -191,6 +326,24 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-11.8.0_94992c8f022c55b78f7a3f44cf1436c338d3a999/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f0f484b1a18c1676984dfea4e572ceffda2f3b78">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.8.0_613cafc547245e535fc05837386844baed3741cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="42c9659c973e311ffdb645ed057e5053e0ab5c78">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-11.8.0_0b8bb70f6025f38e61809449f3f29482b14a46d6.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
         jumboMode="true"
@@ -198,6 +351,24 @@
         revision="27.0.2"
         sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_d1cc9a2d43846a9b9c9749f0e9d8d9f9434f213f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.3/c45573bf68b55442990936f007e7d6823d259c1f/gdx-backend-android-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="c45573bf68b55442990936f007e7d6823d259c1f">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.3_b6e684eabf56664871ec97f46e4ed2bd287d58da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.3/1a3775429980a6c8da0cdefb656ad1dabf91d629/gdx-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="1a3775429980a6c8da0cdefb656ad1dabf91d629">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/gdx-1.9.3_48760e12493854e9d180a51fe85ec7f32d0b7bac.jar" />
     </item>
     <item
         is-multidex="true"
@@ -216,6 +387,33 @@
         revision="27.0.2"
         sha1="0a23c4daa97697118d96f2b09d1dbaf9ea943d8d">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-11.8.0_d20a893633d92f6d872d6834264dd754a96e56ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-freetype/1.9.3/dc44a8c15ce18fec8cdbdbd74bbb8bce3ccbba84/gdx-freetype-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="dc44a8c15ce18fec8cdbdbd74bbb8bce3ccbba84">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/gdx-freetype-1.9.3_e0dfe25c3083eec59ef03f1191d59447356ab1ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_1632974a1926a331a61ee2e8eed8e90fd895f595.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-api-phone/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="fe94ced585bffcf3c7f788a294cc54e6785544ac">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-api-phone-11.8.0_27b249e07cc87a49457564ddcc7bbe67418386d2.jar" />
     </item>
     <item
         is-multidex="true"
@@ -263,6 +461,15 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_989be59f9d2a0a34022b2482a43693448f8c0b58/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.8.0_b6822a3c7c71235a6e006a7c8d21ada97f6fadb1.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.8.0/jars/classes.jar"
         jumboMode="true"
@@ -270,6 +477,15 @@
         revision="27.0.2"
         sha1="aeca0a0ab86831ec59a54723205ce9341ac22d1b">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-11.8.0_212fc08b0beb038e4cd7c4aa26dc7882dcac6503/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_6905333c58c3cd4c7e9f6e66192c588bff531f28.jar" />
     </item>
     <item
         is-multidex="true"
@@ -281,6 +497,15 @@
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.6.3_0d98b022a7cf0d3157d7ca91248438b9a3183e90/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ed4cd7b3a4cffc506e7e02f72c8f82b8fcc03a74">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/core-1.0_4fdb1a52be0b5dbc1e044bd3b424148d77145669.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.8.0/jars/classes.jar"
         jumboMode="true"
@@ -288,6 +513,24 @@
         revision="27.0.2"
         sha1="e6aeff19a2ce1eb896557be73cb9ceb56f8d1cf3">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-11.8.0_71b2189f9dab059726075581ece0b230b83a752d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="c44026185adf61f12630db36ac6781481f559e7c">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-11.8.0_cd840953e0baca3afc5a13de76417099caacaa06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.8.0_c6869a4c609c9dc83aeb7d0f6f3cb2575206c15c.jar" />
     </item>
     <item
         is-multidex="true"
@@ -306,6 +549,60 @@
         revision="27.0.2"
         sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
         <dex dex="/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-11.8.0_2b14e6302e3c6bb322977a316053e7224271d16e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_efcbf146a552ba4b28405fa53b9abe60726b52eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="263d4b3cb11781467a6fa04450b1a72727c541f3">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-11.8.0_45abeb7946bb45e8faeb8876c981727452ae4b43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="a291a37263a30113eb90ad7618fd7081d8c0e837">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.crashlytics.sdk.android-answers-1.4.2_de6594a1665134907a8d126c45fecce398af57cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="24cb9bae5fbe94df0f55d87452a291b69a2f22bf">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-11.8.0_6e9c4ba547f050cd09d809257b59e34ed4b8834a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="122de0d704f76d2bb5cb9db66e00fe90a0a41e78">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-11.8.0_4e75de198d2217b426405ee4f64c41e4e7c2151f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="97c7be4a90a5495a6e3beda08120d0fa106cfdcc">
+        <dex dex="/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/pre-dexed/debug/io.fabric.sdk.android-fabric-1.4.3_c35068545b5aa6227bdf808972deee839ea1e065.jar" />
     </item>
 
 </items>

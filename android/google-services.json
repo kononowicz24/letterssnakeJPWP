@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "1085611589035",
-    "firebase_url": "https://retrosnake2-9a0dd.firebaseio.com",
-    "project_id": "retrosnake2-9a0dd",
-    "storage_bucket": "retrosnake2-9a0dd.appspot.com"
+    "firebase_url": "https://letterssnake-9a0dd.firebaseio.com",
+    "project_id": "letterssnake-9a0dd",
+    "storage_bucket": "letterssnake-9a0dd.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:1085611589035:android:d778615766a0a07e",
         "android_client_info": {
-          "package_name": "com.kononowicz24.retrosnake2"
+          "package_name": "com.kononowicz24.letterssnake"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "1085611589035-ivj7gl2ot5vodhg3db87bfse4dflku9n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.kononowicz24.retrosnake2",
+            "package_name": "com.kononowicz24.letterssnake",
             "certificate_hash": "39767d9faf4305b4a2e177996c60c6493e67fdf5"
           }
         },

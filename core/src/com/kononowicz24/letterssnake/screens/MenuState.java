@@ -1,4 +1,4 @@
-package com.kononowicz24.retrosnake2.screens;
+package com.kononowicz24.letterssnake.screens;
 
 /**
  * Created by k24 on 12.06.18.

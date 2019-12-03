@@ -1,11 +1,11 @@
-package com.kononowicz24.retrosnake2.screens;
+package com.kononowicz24.letterssnake.screens;
 
 import com.badlogic.gdx.InputProcessor;
 
 import com.badlogic.gdx.input.GestureDetector.GestureListener;
-import com.kononowicz24.retrosnake2.helpers.Actionable;
-import com.kononowicz24.retrosnake2.helpers.Disposable;
-import com.kononowicz24.retrosnake2.helpers.Renderable;
+import com.kononowicz24.letterssnake.helpers.Actionable;
+import com.kononowicz24.letterssnake.helpers.Disposable;
+import com.kononowicz24.letterssnake.helpers.Renderable;
 
 /**
  * Created by k24 on 12.06.18.

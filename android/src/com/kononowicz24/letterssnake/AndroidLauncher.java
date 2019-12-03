@@ -1,4 +1,4 @@
-package com.kononowicz24.retrosnake2;
+package com.kononowicz24.letterssnake;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -22,12 +22,12 @@ public class AndroidLauncher extends AndroidApplication {
 	//protected void onCreate (Bundle savedInstanceState) {
 	//	super.onCreate(savedInstanceState);
 	//	AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-	//	initialize(new RetroSnake(), config);
+	//	initialize(new LettersSnake(), config);
 	//}
 
 
 	private static final String AD_UNIT_ID = "ca-app-pub-6060245360846265/3704078585";
-	private static final String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/developer?id=TheInvader360";
+	//private static final String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/developer?id=TheInvader360";
 	protected AdView adView;
 	protected View gameView;
 	private GoogleSignInClient mGoogleSignInClient;
@@ -78,7 +78,7 @@ public class AndroidLauncher extends AndroidApplication {
 	}
 
 	private View createGameView(AndroidApplicationConfiguration cfg) {
-		gameView = initializeForView(new RetroSnake(), cfg);
+		gameView = initializeForView(new com.kononowicz24.letterssnake.LettersSnake(), cfg);
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 		params.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM, RelativeLayout.TRUE);
 		params.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);

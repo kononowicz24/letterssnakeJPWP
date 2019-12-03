@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kononowicz24.retrosnake2"
+    package="com.kononowicz24.letterssnake"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,10 +14,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.kononowicz24.retrosnake2.permission.C2D_MESSAGE"
+        android:name="com.kononowicz24.letterssnake.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.kononowicz24.retrosnake2.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.kononowicz24.letterssnake.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
@@ -25,7 +25,7 @@
         android:label="@string/app_name"
         android:theme="@style/GdxTheme" >
         <activity
-            android:name="com.kononowicz24.retrosnake2.AndroidLauncher"
+            android:name="com.kononowicz24.letterssnake.AndroidLauncher"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
@@ -77,7 +77,7 @@
 
         <provider
             android:name="com.crashlytics.android.CrashlyticsInitProvider"
-            android:authorities="com.kononowicz24.retrosnake2.crashlyticsinitprovider"
+            android:authorities="com.kononowicz24.letterssnake.crashlyticsinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -113,7 +113,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.kononowicz24.retrosnake2" />
+                <category android:name="com.kononowicz24.letterssnake" />
             </intent-filter>
         </receiver>
         <!--
@@ -130,7 +130,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.kononowicz24.retrosnake2.firebaseinitprovider"
+            android:authorities="com.kononowicz24.letterssnake.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
     </application>

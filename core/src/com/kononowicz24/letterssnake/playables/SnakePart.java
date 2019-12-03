@@ -1,15 +1,15 @@
-package com.kononowicz24.retrosnake2.playables;
+package com.kononowicz24.letterssnake.playables;
 
 import com.badlogic.gdx.graphics.Texture;
-import com.kononowicz24.retrosnake2.RetroSnake;
+import com.kononowicz24.letterssnake.LettersSnake;
 
 /**
  * Created by k24 on 06.09.18.
  */
 
 public class SnakePart extends Part {
-    public SnakePart(RetroSnake rS, int x, int y, Texture tex) {
-        super(rS, x, y, tex);
+    public SnakePart(LettersSnake lS, int x, int y, Texture tex) {
+        super(lS, x, y, tex);
     }
     @Override
     public void dispose() {

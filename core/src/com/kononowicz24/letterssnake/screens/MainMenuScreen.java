@@ -1,16 +1,15 @@
-package com.kononowicz24.retrosnake2.screens;
+package com.kononowicz24.letterssnake.screens;
 
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Vector2;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.layoutelems.MenuButton;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.layoutelems.MenuButton;
 
 /**
  * Created by k24 on 12.06.18.
  */
 
 public class MainMenuScreen implements Screen {
-    private RetroSnake rS;
+    private LettersSnake lS;
     private MenuButton playButton;
     private MenuButton multiButton;
     private MenuButton achievButton;
@@ -18,14 +17,14 @@ public class MainMenuScreen implements Screen {
     private MenuButton settButton;
     private MenuButton aboutButton;
 
-    public MainMenuScreen(RetroSnake rS) {
-        this.rS = rS;
-        playButton = new MenuButton(rS, "menu_play.png", MenuState.PLAYARENA, 3*rS.dX, 22*rS.dY);
-        multiButton = new MenuButton(rS, "menu_multi.png", MenuState.PLAYARENA_MULTI, 13*rS.dX, 22*rS.dY);
-        achievButton = new MenuButton(rS, "menu_achiev.png", MenuState.POP_ACHIEV, 3*rS.dX, 12*rS.dY);
-        boardsButton = new MenuButton(rS, "menu_hisc.png", MenuState.POP_BOARDS, 13*rS.dX, 12*rS.dY);
-        settButton = new MenuButton(rS, "menu_sett.png", MenuState.SETTINGS, 3*rS.dX, 2*rS.dY);
-        aboutButton = new MenuButton(rS, "menu_about.png", MenuState.ABOUT, 13*rS.dX, 2*rS.dY);
+    public MainMenuScreen(LettersSnake lS) {
+        this.lS = lS;
+        playButton = new MenuButton(lS, "menu_play.png", MenuState.PLAYARENA, 3*lS.dX, 22*lS.dY);
+        multiButton = new MenuButton(lS, "menu_multi.png", MenuState.PLAYARENA_MULTI, 13*lS.dX, 22*lS.dY);
+        achievButton = new MenuButton(lS, "menu_achiev.png", MenuState.POP_ACHIEV, 3*lS.dX, 12*lS.dY);
+        boardsButton = new MenuButton(lS, "menu_hisc.png", MenuState.POP_BOARDS, 13*lS.dX, 12*lS.dY);
+        settButton = new MenuButton(lS, "menu_sett.png", MenuState.SETTINGS, 3*lS.dX, 2*lS.dY);
+        aboutButton = new MenuButton(lS, "menu_about.png", MenuState.ABOUT, 13*lS.dX, 2*lS.dY);
     }
 
     @Override
@@ -40,13 +39,13 @@ public class MainMenuScreen implements Screen {
 
     @Override
     public void render() {
-        rS.getBatch().draw(rS.bgTexOn, 0,0,rS.xR, rS.yR);
-        playButton.draw(rS.getBatch());
-        multiButton.draw(rS.getBatch());
-        achievButton.draw(rS.getBatch());
-        boardsButton.draw(rS.getBatch());
-        settButton.draw(rS.getBatch());
-        aboutButton.draw(rS.getBatch());
+        lS.getBatch().draw(lS.bgTexOn, 0,0,lS.xR, lS.yR);
+        playButton.draw(lS.getBatch());
+        multiButton.draw(lS.getBatch());
+        achievButton.draw(lS.getBatch());
+        boardsButton.draw(lS.getBatch());
+        settButton.draw(lS.getBatch());
+        aboutButton.draw(lS.getBatch());
     }
 
     @Override

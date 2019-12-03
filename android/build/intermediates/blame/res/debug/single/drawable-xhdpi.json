@@ -2,5 +2,9 @@
     {
         "merged": "/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
         "source": "/home/k24/AndroidStudioProjects/RS2/android/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/k24/AndroidStudioProjects/LSJPWP/android/res/drawable-xhdpi/ic_launcher.png"
     }
 ]

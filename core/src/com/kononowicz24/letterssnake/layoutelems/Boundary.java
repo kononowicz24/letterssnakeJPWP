@@ -1,10 +1,10 @@
-package com.kononowicz24.retrosnake2.layoutelems;
+package com.kononowicz24.letterssnake.layoutelems;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Vector2;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.helpers.Disposable;
-import com.kononowicz24.retrosnake2.helpers.Renderable;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.helpers.Disposable;
+import com.kononowicz24.letterssnake.helpers.Renderable;
 
 /**
  * Created by k24 on 02.09.18.
@@ -12,10 +12,10 @@ import com.kononowicz24.retrosnake2.helpers.Renderable;
 
 public class Boundary implements Renderable, Disposable {
     private Texture boundary;
-    private RetroSnake rS;
-    public Boundary(RetroSnake rS) {
+    private LettersSnake lS;
+    public Boundary(LettersSnake lS) {
         boundary = new Texture("bound.png");
-        this.rS = rS;
+        this.lS = lS;
     }
 
     @Override
@@ -25,12 +25,12 @@ public class Boundary implements Renderable, Disposable {
 
     @Override
     public void render() {
-        Vector2 p1 = new Vector2(rS.dX,rS.dY);
-        Vector2 p2 = new Vector2(rS.dX*(rS.getxDimm()+1),rS.dY*(rS.getyDimm()+1));
-        rS.getBatch().draw(boundary, p1.x, p1.y, p2.x-p1.x, 3);
-        rS.getBatch().draw(boundary, p1.x, p1.y, 3, p2.y-p1.y);
-        rS.getBatch().draw(boundary, p2.x, p2.y, p1.x-p2.x, -3);
-        rS.getBatch().draw(boundary, p2.x, p2.y, -3, p1.y-p2.y);
+        Vector2 p1 = new Vector2(lS.dX,lS.dY);
+        Vector2 p2 = new Vector2(lS.dX*(lS.getxDimm()+1),lS.dY*(lS.getyDimm()+1));
+        lS.getBatch().draw(boundary, p1.x, p1.y, p2.x-p1.x, 3);
+        lS.getBatch().draw(boundary, p1.x, p1.y, 3, p2.y-p1.y);
+        lS.getBatch().draw(boundary, p2.x, p2.y, p1.x-p2.x, -3);
+        lS.getBatch().draw(boundary, p2.x, p2.y, -3, p1.y-p2.y);
 
     }
 }

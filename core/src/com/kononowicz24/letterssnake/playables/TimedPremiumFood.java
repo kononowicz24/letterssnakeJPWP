@@ -1,11 +1,10 @@
-package com.kononowicz24.retrosnake2.playables;
+package com.kononowicz24.letterssnake.playables;
 
-import com.badlogic.gdx.Audio;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.helpers.RandomAssetGenerator;
-import com.kononowicz24.retrosnake2.helpers.Steppable;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.helpers.RandomAssetGenerator;
+import com.kononowicz24.letterssnake.helpers.Steppable;
 
 /**
  * Created by k24 on 02.09.18.
@@ -14,12 +13,12 @@ import com.kononowicz24.retrosnake2.helpers.Steppable;
 public class TimedPremiumFood extends Food implements Steppable {
     private int time;
     private int remainingTime;
-    public TimedPremiumFood(RetroSnake rS, int x, int y, Texture tex, int time) {
-        super(rS, x, y, tex);
+    public TimedPremiumFood(LettersSnake lS, int x, int y, Texture tex, int time) {
+        super(lS, x, y, tex);
         this.time=time;
     }
-    public TimedPremiumFood(RetroSnake rS, int x, int y, int time) {
-        super(rS, x, y, new Texture(Gdx.files.internal(RandomAssetGenerator.choose(RandomAssetGenerator.generate("premiumfood", 3)))));
+    public TimedPremiumFood(LettersSnake lS, int x, int y, int time) {
+        super(lS, x, y, new Texture(Gdx.files.internal(RandomAssetGenerator.choose(RandomAssetGenerator.generate("premiumfood", 3)))));
         this.time=time;
         this.setSound(Gdx.audio.newSound(Gdx.files.internal("sound3.ogg")));
     }
@@ -38,8 +37,8 @@ public class TimedPremiumFood extends Food implements Steppable {
     @Override
     public void render() {
         super.render();
-        rS.getBatch().draw(this.getTexture(),(11)*rS.dX, (rS.getyDimm()+1)*rS.dY+2, rS.dX, rS.dY);//2 to offset żeby w bande nie wchodziło
-        rS.getFontManager().font1dX.draw(rS.getBatch(),String.valueOf(time), 12.1f*rS.dX, (int)((rS.getyDimm()+1.85)*rS.dY));
+        lS.getBatch().draw(this.getTexture(),(11)*lS.dX, (lS.getyDimm()+1)*lS.dY+2, lS.dX, lS.dY);//2 to offset żeby w bande nie wchodziło
+        lS.getFontManager().font1dX.draw(lS.getBatch(),String.valueOf(time), 12.1f*lS.dX, (int)((lS.getyDimm()+1.85)*lS.dY));
     }
 
     public int getTime() {
@@ -48,6 +47,6 @@ public class TimedPremiumFood extends Food implements Steppable {
 
     @Override
     public int value() {
-        return (int)((Math.pow(4,0.1f*rS.getLevel())-1)*1.5f*(1/500f*(time-50)*(time-50)+4)+rS.getLevel()); //to nie magia, to matematyka
+        return (int)((Math.pow(4,0.1f*lS.getLevel())-1)*1.5f*(1/500f*(time-50)*(time-50)+4)+lS.getLevel()); //to nie magia, to matematyka
     }
 }

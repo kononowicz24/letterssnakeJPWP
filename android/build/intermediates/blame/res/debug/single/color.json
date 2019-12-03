@@ -4,11 +4,23 @@
         "source": "/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
         "source": "/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
         "source": "/home/k24/AndroidStudioProjects/RS2/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/color/common_google_signin_btn_text_dark.xml"
     }
 ]

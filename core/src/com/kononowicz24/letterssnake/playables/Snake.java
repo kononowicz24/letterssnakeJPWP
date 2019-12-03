@@ -1,15 +1,15 @@
-package com.kononowicz24.retrosnake2.playables;
+package com.kononowicz24.letterssnake.playables;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
-import com.kononowicz24.retrosnake2.RetroSnake;
-import com.kononowicz24.retrosnake2.helpers.AbstractPart;
-import com.kononowicz24.retrosnake2.helpers.Disposable;
-import com.kononowicz24.retrosnake2.helpers.FoodRandomizer;
-import com.kononowicz24.retrosnake2.helpers.Renderable;
-import com.kononowicz24.retrosnake2.helpers.SnakeDirection;
-import com.kononowicz24.retrosnake2.helpers.Steppable;
-import com.kononowicz24.retrosnake2.overlays.GameOverOverlay;
+import com.kononowicz24.letterssnake.LettersSnake;
+import com.kononowicz24.letterssnake.helpers.AbstractPart;
+import com.kononowicz24.letterssnake.helpers.Disposable;
+import com.kononowicz24.letterssnake.helpers.FoodRandomizer;
+import com.kononowicz24.letterssnake.helpers.Renderable;
+import com.kononowicz24.letterssnake.helpers.SnakeDirection;
+import com.kononowicz24.letterssnake.helpers.Steppable;
+import com.kononowicz24.letterssnake.overlays.GameOverOverlay;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -22,21 +22,21 @@ import java.util.Iterator;
 public abstract class Snake extends ArrayList<SnakePart> implements Renderable, Disposable, Steppable {
     protected SnakeDirection direction;
     protected boolean dead=false;
-    protected RetroSnake rS;
+    protected LettersSnake lS;
     protected FoodRandomizer foodRandomizer;
     protected GameOverOverlay gameOverOverlay;
     protected ArrayList<Food> foods;
     protected int score;
-    public Snake(RetroSnake retroSnake, ArrayList<Food> foods, FoodRandomizer foodRandomizer, GameOverOverlay gameOverOverlay) {
-        rS = retroSnake;
+    public Snake(LettersSnake lettersSnake, ArrayList<Food> foods, FoodRandomizer foodRandomizer, GameOverOverlay gameOverOverlay) {
+        lS = lettersSnake;
         score = 0;
         this.foods = foods;
         this.foodRandomizer = foodRandomizer;
         this.gameOverOverlay = gameOverOverlay;
         direction = SnakeDirection.RH;
-        this.add(new SnakePart(rS, 7,6, new Texture("snake.png")));
-        this.add(new SnakePart(rS, 6,6, new Texture("snake.png")));
-        this.add(new SnakePart(rS, 5,6, new Texture("snake.png")));
+        this.add(new SnakePart(lS, 7,6, new Texture("snake.png")));
+        this.add(new SnakePart(lS, 6,6, new Texture("snake.png")));
+        this.add(new SnakePart(lS, 5,6, new Texture("snake.png")));
         this.dead = false;
     }
     @Override
@@ -65,18 +65,18 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
             case LH: newHeadx-=1; break;
             case RH: newHeadx+=1; break;
         }
-        if (newHeadx<0) newHeadx+=rS.getxDimm();
-        if (newHeadx>=rS.getxDimm()) newHeadx-=rS.getxDimm(); //todo based on mode kill on bounds or not
-        if (newHeady<0) newHeady+=rS.getyDimm();
-        if (newHeady>=rS.getyDimm()) newHeady-=rS.getyDimm();
-        AbstractPart abstractPart = new AbstractPart(rS, (int)newHeadx, (int)newHeady);//fixme vector2 would be ok
+        if (newHeadx<0) newHeadx+=lS.getxDimm();
+        if (newHeadx>=lS.getxDimm()) newHeadx-=lS.getxDimm(); //todo based on mode kill on bounds or not
+        if (newHeady<0) newHeady+=lS.getyDimm();
+        if (newHeady>=lS.getyDimm()) newHeady-=lS.getyDimm();
+        AbstractPart abstractPart = new AbstractPart(lS, (int)newHeadx, (int)newHeady);//fixme vector2 would be ok
         if (belongs(abstractPart)) {
             //todo przegrana
             this.die();
             Gdx.app.log("RS", "przegrana");
             gameOverOverlay.show();
         }
-        this.add(0,new SnakePart(rS, (int)newHeadx, (int)newHeady, head.getTexture()));
+        this.add(0,new SnakePart(lS, (int)newHeadx, (int)newHeady, head.getTexture()));
 
         boolean consumed = false;
         ArrayList<Food> foodConsumed = new ArrayList<Food>();
