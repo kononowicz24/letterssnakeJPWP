@@ -2,297 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebe13abc-cd24-4ea7-a5b3-754bba836fcc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/androidTest/debug/com/kononowicz24/retrosnake2/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/com/kononowicz24/retrosnake2/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/generated/source/r/debug/com/kononowicz24/retrosnake2/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/generated/source/r/debug/com/kononowicz24/retrosnake2/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/AndroidLauncher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/Manifest$permission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/Manifest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/kononowicz24/retrosnake2/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_c66d00b732967aa763490ef845f63c976a940ad5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_8fc8b3e063c949ced20994b7c9a1acd881a322c9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_d1cc9a2d43846a9b9c9749f0e9d8d9f9434f213f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_0abd2465b970515592a4d8211fe5345394a2654c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_201a510278621fe4ae43cb833b76086269252a52/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_866ffc37c5c0d2fe5d37201b1cda53315f59837e/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.4.2_edccd23ad7aa0b862a3a0d09c2c10ac458d7b55b/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.2.8_8faecd7d9545874f25629245668f9bd838ed496f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.9.3_165b5bc1003294852d9c7f430612f23396c2bd6d/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.6.3_0d98b022a7cf0d3157d7ca91248438b9a3183e90/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-11.8.0_212fc08b0beb038e4cd7c4aa26dc7882dcac6503/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-11.8.0_428b5704876cf3eb1faff809f2cf9f364982ce47/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-11.8.0_94992c8f022c55b78f7a3f44cf1436c338d3a999/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-api-phone-11.8.0_7e530e197ce9bf8bab5fe64be02c289c58a8f8e2/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-11.8.0_d20a893633d92f6d872d6834264dd754a96e56ee/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-11.8.0_2b14e6302e3c6bb322977a316053e7224271d16e/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-11.8.0_0be9fbcccfe1df632a2e80fd278867884044e33a/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-11.8.0_fd4633ee2f0249ce7679d75c4dfb6dcf87345b6f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-11.8.0_a5a183aafb1a34425f8bb7dbee691b58225cd070/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-11.8.0_8e3850173c53ebe6f1fa486fb1c5887da5583209/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-11.8.0_6872f11e0c9e492061d4e4f93dd758cd506f7938/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-11.8.0_3d45a1c72be34e223c60caaa31b761a57fcddc51/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-11.8.0_009f431e81ceb32d37f26c92dc5036d57fd31e01/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-11.8.0_b6a66fcbefc64a0c42b93485f404067f8b417839/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-11.8.0_71b2189f9dab059726075581ece0b230b83a752d/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-11.8.0_b17c146845f460197ce21deed6184335dc82ffa9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-11.8.0_04b1bfe1875a9528c1339e5fe122e0af7dfd2d5b/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-1.9.3_48760e12493854e9d180a51fe85ec7f32d0b7bac/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-backend-android-1.9.3_b6e684eabf56664871ec97f46e4ed2bd287d58da/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-freetype-1.9.3_e0dfe25c3083eec59ef03f1191d59447356ab1ae/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_104e1435fd7c574e446e952fc9070f6ac1cf73a3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_afb6b930b19a3480d71b5d570e36f4a3024036a4/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.4.3_6e845b08fd1971178cd268ad7d32cf0f4f433a01/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_989be59f9d2a0a34022b2482a43693448f8c0b58/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/RetroSnake$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/RetroSnake.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/AbstractPart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/Disposable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/FontManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/FoodRandomizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/Hideable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/RandomAssetGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/Renderable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/SnakeDirection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/helpers/Steppable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/layoutelems/Boundary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/layoutelems/CenteredText.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/layoutelems/MenuButton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/layoutelems/MenuButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/overlays/GameOverOverlay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/overlays/Overlay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/Food.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/GenericFood.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/Obstacle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/Part.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/PlayerSnake.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/Snake$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/Snake.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/SnakePart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/playables/TimedPremiumFood.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/screens/IntroScreen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/screens/MainMenuScreen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/screens/MenuState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/screens/Screen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/kononowicz24/retrosnake2/screens/SingleplayerScreen.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/RetroSnake.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/LettersSnake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-api-phone-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-api-phone-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-games-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-games-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-ads/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-ads/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging-license/11.8.0/jars/classes.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging-license/11.8.0/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/answers_1_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/answers_1_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/crashlytics_core_2_6_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/crashlytics_core_2_6_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/fabric_1_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/fabric_1_4_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_ads_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_ads_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_core_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_core_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_iid_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_iid_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_messaging_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_api_phone_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_api_phone_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_games_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_games_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_license_11_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_license_11_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" afterPath="$PROJECT_DIR$/android/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/generated/res/google-services/debug/values/values.xml" afterPath="$PROJECT_DIR$/android/build/generated/res/google-services/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/crashlytics-build.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/crashlytics-build.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-az.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-az.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-be.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-be.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bn.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bs.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-eu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-is.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-is.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kn.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ky.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ky.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ml.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ml.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-my.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-my.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ne.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ne.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pa.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-si.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-si.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sq.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sq.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ta.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-te.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-te.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ur.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ur.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uz.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uz.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-watch-v20.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-watch-v20.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-watch-v20.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-watch-v20.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/google-services.json" afterPath="$PROJECT_DIR$/android/google-services.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/kononowicz24/letterssnake/AndroidLauncher.java" afterPath="$PROJECT_DIR$/android/src/com/kononowicz24/letterssnake/AndroidLauncher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/AbstractPart.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/AbstractPart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Action.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Actionable.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Actionable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Disposable.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Disposable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/FontManager.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/FontManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/FoodRandomizer.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/FoodRandomizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Hideable.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Hideable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/RandomAssetGenerator.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/RandomAssetGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Renderable.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Renderable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/SnakeDirection.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/SnakeDirection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Steppable.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/helpers/Steppable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/Boundary.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/Boundary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/CenteredText.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/CenteredText.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/MenuButton.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/MenuButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/TextButton.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/layoutelems/TextButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/overlays/GameOverOverlay.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/overlays/GameOverOverlay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/overlays/Overlay.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/overlays/Overlay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Food.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Food.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/GenericFood.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/GenericFood.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Obstacle.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Obstacle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Part.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Part.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/PlayerSnake.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/PlayerSnake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Snake.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Snake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/SnakePart.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/SnakePart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/TimedPremiumFood.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/TimedPremiumFood.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/IntroScreen.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/IntroScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/MainMenuScreen.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/MainMenuScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/MenuState.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/MenuState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/Screen.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/Screen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/SingleplayerScreen.java" afterPath="$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/screens/SingleplayerScreen.java" />
     </list>
     <ignored path="LSJPWP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -372,11 +82,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerSnake.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/PlayerSnake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Snake.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Snake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -3001,6 +2731,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="playables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LSJPWP" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letterssnake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3022,7 +2774,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -3303,7 +3055,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="android" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="false" name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="android" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -3381,11 +3133,19 @@
       <option name="presentableId" value="Default" />
       <updated>1575411536345</updated>
     </task>
+    <task id="LOCAL-00001" summary="update android.iml">
+      <created>1575412346892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575412346892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1368" height="739" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -3403,8 +3163,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -3423,6 +3183,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update android.iml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update android.iml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3472,6 +3236,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/PlayerSnake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/kononowicz24/letterssnake/playables/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
       </provider>
