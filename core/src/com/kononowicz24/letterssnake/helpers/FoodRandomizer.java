@@ -18,11 +18,11 @@ import java.util.Random;
  */
 
 public class FoodRandomizer {
-    private LettersSnake lS;
-    private ArrayList<Food> foods;
-    private ArrayList<Snake> snakes;
+    protected LettersSnake lS;
+    protected ArrayList<Food> foods;
+    protected ArrayList<Snake> snakes;
     private int counter;
-    private Vector2 screenDims;
+    protected Vector2 screenDims;
     public FoodRandomizer(LettersSnake lS, ArrayList<Snake> snakes, ArrayList<Food> foods, Vector2 screenDims) {
         this.lS = lS;
         this.foods = foods;
@@ -30,7 +30,7 @@ public class FoodRandomizer {
         this.screenDims = screenDims;
         counter=0;
     }
-    private ArrayList<Part> availablePositions() {
+    protected ArrayList<Part> availablePositions() {
         ArrayList<Part> result = new ArrayList<Part>();
         for (int i=0; i<screenDims.x; i++) {
             for (int j=0; j<screenDims.y; j++) {
