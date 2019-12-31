@@ -4,6 +4,7 @@ import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.kononowicz24.letterssnake.LettersSnake;
 import com.kononowicz24.letterssnake.helpers.FoodRandomizer;
+import com.kononowicz24.letterssnake.helpers.LettersRandomizer;
 import com.kononowicz24.letterssnake.helpers.SnakeDirection;
 import com.kononowicz24.letterssnake.helpers.Steppable;
 import com.kononowicz24.letterssnake.layoutelems.Boundary;
@@ -25,7 +26,7 @@ public class SingleplayerScreen implements Screen {
     private Snake playersSnake;
     private ArrayList<Food> foods;
     private ArrayList<Snake> snakes;
-    private FoodRandomizer foodRandomizer;
+    private LettersRandomizer lettersRandomizer;
     private GameOverOverlay gameOverOverlay;
     private Boundary boundary;
     private int speed;
@@ -39,13 +40,13 @@ public class SingleplayerScreen implements Screen {
         foods = new ArrayList<Food>();
         snakes = new ArrayList<Snake>();
         millis = TimeUtils.millis();
-        foodRandomizer = new FoodRandomizer(lS, snakes, foods, new Vector2(lS.getxDimm(), lS.getyDimm()));
+        lettersRandomizer = new LettersRandomizer(lS, snakes, foods, new Vector2(lS.getxDimm(), lS.getyDimm()));
         gameOverOverlay = new GameOverOverlay(lS);
         gameOverOverlay.hide();
-        playersSnake = new PlayerSnake(lS, foods, foodRandomizer, gameOverOverlay);
+        playersSnake = new PlayerSnake(lS, foods, lettersRandomizer, gameOverOverlay);
         snakes.add(playersSnake);
         stepDuration = 180L;
-        foodRandomizer.addFood(playersSnake);
+        lettersRandomizer.addFood(playersSnake);
 
     }
 
@@ -132,7 +133,7 @@ public class SingleplayerScreen implements Screen {
         } else {
 
         }
-            return false;
+        return false;
     }
 
     @Override
@@ -214,8 +215,8 @@ public class SingleplayerScreen implements Screen {
         this.speed = speed;
     }
 
-    public FoodRandomizer getFoodRandomizer() {
-        return foodRandomizer;
+    public LettersRandomizer getLettersRandomizer() {
+        return lettersRandomizer;
     }
 
     @Override

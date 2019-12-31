@@ -3,11 +3,9 @@ package com.kononowicz24.letterssnake.helpers;
 import com.badlogic.gdx.math.Vector2;
 import com.kononowicz24.letterssnake.LettersSnake;
 import com.kononowicz24.letterssnake.playables.Food;
-import com.kononowicz24.letterssnake.playables.GenericFood;
 import com.kononowicz24.letterssnake.playables.LetterFood;
 import com.kononowicz24.letterssnake.playables.Part;
 import com.kononowicz24.letterssnake.playables.Snake;
-import com.kononowicz24.letterssnake.playables.TimedPremiumFood;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,13 +16,14 @@ import java.util.Random;
  */
 
 public class LettersRandomizer extends FoodRandomizer {
-    private String letters = "abcdefghijklmnopqrstuvwxyz"; //todo maybe allow for change language
+    private String letters = "AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ"; //todo maybe allow for change language
     private int count = 0;
-    private ArrayList<LetterFood> lettersOnScreen;
+    //private ArrayList<LetterFood> lettersOnScreen;
+    private ArrayList<Boolean> lettersOnScreen;
 
     public LettersRandomizer(LettersSnake lS, ArrayList<Snake> snakes, ArrayList<Food> foods, Vector2 screenDims) {
         super(lS, snakes, foods, screenDims);
-        lettersOnScreen = new ArrayList<LetterFood>();
+        lettersOnScreen = new ArrayList<Boolean>();
     }
 
     @Override
@@ -32,7 +31,12 @@ public class LettersRandomizer extends FoodRandomizer {
         ArrayList<Part> avFoodPos = availablePositions();
         Random random = new Random();
         int ordinal = random.nextInt(availablePositions().size());
+        if (count>=letters.length()) {
+            count=0;
+            //todo google play achievement whole alphabet
+        }
         foods.add(new LetterFood(lS, (int)avFoodPos.get(ordinal).x, (int)avFoodPos.get(ordinal).y, letters.charAt(count))); //todo check if not in
+        count++; //todo checking if THIS letter is on the play field already
     }
     public void addFoodRandomly(Snake snake) {
         ArrayList<Part> avFoodPos = availablePositions();
@@ -40,6 +44,7 @@ public class LettersRandomizer extends FoodRandomizer {
         int ordinal = random.nextInt(availablePositions().size());
         foods.add(new LetterFood(lS, (int)avFoodPos.get(ordinal).x, (int)avFoodPos.get(ordinal).y, letters.charAt(random.nextInt(letters.length()))));
     }
+
 
     public int getCount() {
         return count;

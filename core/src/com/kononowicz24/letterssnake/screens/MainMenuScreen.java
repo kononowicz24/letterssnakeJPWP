@@ -46,6 +46,7 @@ public class MainMenuScreen implements Screen {
         boardsButton.draw(lS.getBatch());
         settButton.draw(lS.getBatch());
         aboutButton.draw(lS.getBatch());
+        lS.getFontManager().font1dX.draw(lS.getBatch(),"QWERTYĄĆĘŁŃŚÓŻŹąćęłńśżźµ", 2*lS.dX, 3*lS.dX);
     }
 
     @Override

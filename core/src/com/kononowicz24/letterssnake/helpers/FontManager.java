@@ -18,6 +18,7 @@ public class FontManager implements Disposable{
     public FontManager(LettersSnake lS) {
         mainMenuFontGenerator = new FreeTypeFontGenerator(Gdx.files.internal("fonts/PressStart2P.ttf"));
         parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
+        parameter.characters = FreeTypeFontGenerator.DEFAULT_CHARS + "ĄĆĘŁŃŚŻŹÓąćęłńśżźó"; //todo while adding russian here should be added also
         parameter.size = (int)(0.85f*lS.dX);
         parameter.color = new Color(0.24609375f, 0.27734375f, 0.234375f,1);
         font1dX = mainMenuFontGenerator.generateFont(parameter);

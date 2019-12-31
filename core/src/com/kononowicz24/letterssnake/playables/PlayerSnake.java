@@ -3,6 +3,7 @@ package com.kononowicz24.letterssnake.playables;
 
 import com.kononowicz24.letterssnake.LettersSnake;
 import com.kononowicz24.letterssnake.helpers.FoodRandomizer;
+import com.kononowicz24.letterssnake.helpers.LettersRandomizer;
 import com.kononowicz24.letterssnake.helpers.SnakeDirection;
 import com.kononowicz24.letterssnake.overlays.GameOverOverlay;
 
@@ -18,8 +19,8 @@ import static com.kononowicz24.letterssnake.helpers.SnakeDirection.UP;
  */
 
 public class PlayerSnake extends Snake {
-    public PlayerSnake(LettersSnake lettersSnake, ArrayList<Food> foods, FoodRandomizer foodRandomizer, GameOverOverlay gameOverOverlay) {
-        super(lettersSnake, foods, foodRandomizer, gameOverOverlay);
+    public PlayerSnake(LettersSnake lettersSnake, ArrayList<Food> foods, LettersRandomizer lettersRandomizer, GameOverOverlay gameOverOverlay) {
+        super(lettersSnake, foods, lettersRandomizer, gameOverOverlay);
     }
     @Override
     public void dispose() {

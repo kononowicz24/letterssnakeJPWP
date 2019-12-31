@@ -6,6 +6,7 @@ import com.kononowicz24.letterssnake.LettersSnake;
 import com.kononowicz24.letterssnake.helpers.AbstractPart;
 import com.kononowicz24.letterssnake.helpers.Disposable;
 import com.kononowicz24.letterssnake.helpers.FoodRandomizer;
+import com.kononowicz24.letterssnake.helpers.LettersRandomizer;
 import com.kononowicz24.letterssnake.helpers.Renderable;
 import com.kononowicz24.letterssnake.helpers.SnakeDirection;
 import com.kononowicz24.letterssnake.helpers.Steppable;
@@ -23,15 +24,15 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
     protected SnakeDirection direction;
     protected boolean dead=false;
     protected LettersSnake lS;
-    protected FoodRandomizer foodRandomizer;
+    protected LettersRandomizer lettersRandomizer;
     protected GameOverOverlay gameOverOverlay;
     protected ArrayList<Food> foods;
     protected int score;
-    public Snake(LettersSnake lettersSnake, ArrayList<Food> foods, FoodRandomizer foodRandomizer, GameOverOverlay gameOverOverlay) {
+    public Snake(LettersSnake lettersSnake, ArrayList<Food> foods, LettersRandomizer lettersRandomizer, GameOverOverlay gameOverOverlay) {
         lS = lettersSnake;
         score = 0;
         this.foods = foods;
-        this.foodRandomizer = foodRandomizer;
+        this.lettersRandomizer = lettersRandomizer;
         this.gameOverOverlay = gameOverOverlay;
         direction = SnakeDirection.RH;
         this.add(new SnakePart(lS, 7,6, new Texture("snake.png")));
@@ -86,13 +87,12 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
             consumed|=consume(iterator, foodConsumed); //one of each may be consumed -> OR gate
         }
         for(Food food: foodConsumed) { //zjedzone jedzenie usuwamy dopiero po sprawdzeniu i wylistowaniu ktore bylo zjedzone
-            if (food instanceof GenericFood)
-                foodRandomizer.addFood(this);
+            if (food instanceof LetterFood)
+                lettersRandomizer.addFood(this);
             food.getSound().play();
             score+=food.value();
             food.dispose();
             foods.remove(food);
-
         }
 
         if (!consumed) {

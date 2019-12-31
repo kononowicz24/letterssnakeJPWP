@@ -31,7 +31,26 @@ public class LetterFood extends Food {
     public void render() {
         //super.render();//todo change completely
         //render letter
+        lS.getFontManager().font1dX.draw(lS.getBatch(),String.valueOf(letter), (x+1)*lS.dX, (y+2)*lS.dX);
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+
+        LetterFood that = (LetterFood) o;
+
+        return letter == that.letter;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + (int) letter;
+        return result;
     }
 
     @Override
