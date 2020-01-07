@@ -24,6 +24,9 @@ public class LettersRandomizer extends FoodRandomizer {
     public LettersRandomizer(LettersSnake lS, ArrayList<Snake> snakes, ArrayList<Food> foods, Vector2 screenDims) {
         super(lS, snakes, foods, screenDims);
         lettersOnScreen = new ArrayList<Boolean>();
+        for (int i=0; i<letters.length(); i++) {
+            lettersOnScreen.add(Boolean.valueOf(false));
+        }
     }
 
     @Override
@@ -35,16 +38,21 @@ public class LettersRandomizer extends FoodRandomizer {
             count=0;
             //todo google play achievement whole alphabet
         }
-        foods.add(new LetterFood(lS, (int)avFoodPos.get(ordinal).x, (int)avFoodPos.get(ordinal).y, letters.charAt(count))); //todo check if not in
+        //while (lettersOnScreen.get(count) == false) { //todo refactor
+            foods.add(new LetterFood(lS, (int) avFoodPos.get(ordinal).x, (int) avFoodPos.get(ordinal).y, letters.charAt(count))); //todo check if not in
+
+        //}
         count++; //todo checking if THIS letter is on the play field already
+
     }
     public void addFoodRandomly(Snake snake) {
-        ArrayList<Part> avFoodPos = availablePositions();
         Random random = new Random();
-        int ordinal = random.nextInt(availablePositions().size());
-        foods.add(new LetterFood(lS, (int)avFoodPos.get(ordinal).x, (int)avFoodPos.get(ordinal).y, letters.charAt(random.nextInt(letters.length()))));
+        for (int i=0; i<3+random.nextInt(6); i++) {
+            ArrayList<Part> avFoodPos = availablePositions();
+            int ordinal = random.nextInt(avFoodPos.size());
+            foods.add(new LetterFood(lS, (int) avFoodPos.get(ordinal).x, (int) avFoodPos.get(ordinal).y, letters.charAt(random.nextInt(letters.length()))));
+        }
     }
-
 
     public int getCount() {
         return count;

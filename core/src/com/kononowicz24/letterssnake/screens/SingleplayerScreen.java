@@ -47,7 +47,7 @@ public class SingleplayerScreen implements Screen {
         snakes.add(playersSnake);
         stepDuration = 180L;
         lettersRandomizer.addFood(playersSnake);
-
+        lettersRandomizer.addFoodRandomly(playersSnake);
     }
 
     public ArrayList<Snake> getSnakes() {

@@ -55,6 +55,6 @@ public class LetterFood extends Food {
 
     @Override
     public int value() {
-        return 0;
+        return 7;
     }
 }

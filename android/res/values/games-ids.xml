@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">322440226944</string>
+    <!-- achievement Seven-year-old -->
+    <string name="achievement_sevenyearold" translatable="false">CgkIgNG9l7EJEAIQAA</string>
+    <!-- achievement Snake Player -->
+    <string name="achievement_snake_player" translatable="false">CgkIgNG9l7EJEAIQAQ</string>
+    <!-- achievement Snake Pro -->
+    <string name="achievement_snake_pro" translatable="false">CgkIgNG9l7EJEAIQAg</string>
+    <!-- achievement Snake Veteran -->
+    <string name="achievement_snake_veteran" translatable="false">CgkIgNG9l7EJEAIQAw</string>
+    <!-- achievement Polyglot -->
+    <string name="achievement_polyglot" translatable="false">CgkIgNG9l7EJEAIQBA</string>
+    <!-- leaderboard High Score -->
+    <string name="leaderboard_high_score" translatable="false">CgkIgNG9l7EJEAIQBg</string>
+    <!-- leaderboard Alphabet Time Attack -->
+    <string name="leaderboard_alphabet_time_attack" translatable="false">CgkIgNG9l7EJEAIQBQ</string>
+</resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_id">YOUR_APP_ID</string>
-
-    <string name="achievement_prime">YOUR_ACHIEVEMENT_PRIME_ID</string>
-    <string name="achievement_really_bored">YOUR_ACHIEVEMENT_REALLY_BORED_ID</string>
-</resources>

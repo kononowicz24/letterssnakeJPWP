@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Retro Snake 2</string>
+    <string name="app_name">Letters Snake</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6060245360846265/3704078585</string>
+    <string name="playstore_link">https://play.google.com/store/apps/details?id=com.kononowicz24.letterssnake</string>
+    <string name="your_progress_will_be_uploaded">Your existing achievements and score will be uploaded shortly.</string>
+    <string name="achievements_exception">There was an issue communicating with achievements.</string>
+    <string name="leaderboards_exception">There was an issue communicating with leaderboards.</string>
+    <string name="players_exception">There was an issue communicating with players.</string>
+    <string name="status_exception_error">%1$s (status %2$d). %3$s.</string>
+    <string name="signin_other_error">Other sign-in error.</string>
+    <string name="unknown">unknown</string>
 
 </resources>
