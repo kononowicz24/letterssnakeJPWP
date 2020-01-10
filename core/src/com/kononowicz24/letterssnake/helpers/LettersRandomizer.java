@@ -1,5 +1,7 @@
 package com.kononowicz24.letterssnake.helpers;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.math.Vector2;
 import com.kononowicz24.letterssnake.LettersSnake;
 import com.kononowicz24.letterssnake.interfaces.Achievement;
@@ -10,16 +12,18 @@ import com.kononowicz24.letterssnake.playables.Snake;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Random;
 
 /**
  * Created by k24 on 04.12.19.
  */
 
-public class LettersRandomizer extends FoodRandomizer implements Renderable{
+public class LettersRandomizer extends FoodRandomizer implements Renderable, Disposable{
     private String letters = "AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ"; //todo maybe allow for change language
     private int count = 0;
     private Timer timer;
+    private Sound errorSound;
     //private ArrayList<LetterFood> lettersOnScreen;
     private ArrayList<Boolean> lettersOnScreen;
 
@@ -30,6 +34,7 @@ public class LettersRandomizer extends FoodRandomizer implements Renderable{
             lettersOnScreen.add(Boolean.valueOf(false));
         }
         timer = new Timer(lS);
+        this.setSound(Gdx.audio.newSound(Gdx.files.internal("sound.ogg")));
     }
 
     @Override
@@ -56,7 +61,7 @@ public class LettersRandomizer extends FoodRandomizer implements Renderable{
     }
     public void addFoodRandomly(Snake snake) {
         Random random = new Random();
-        for (int i=0; i<3+random.nextInt(6); i++) {
+        for (int i=0; i<4+random.nextInt(7); i++) {
             ArrayList<Part> avFoodPos = availablePositions();
             int ordinal = random.nextInt(avFoodPos.size());
             foods.add(new LetterFood(lS, (int) avFoodPos.get(ordinal).x, (int) avFoodPos.get(ordinal).y, letters.charAt(random.nextInt(letters.length()))));
@@ -82,6 +87,7 @@ public class LettersRandomizer extends FoodRandomizer implements Renderable{
     @Override
     public void render() {
         timer.render();
+        lS.getFontManager().font1dX.draw(lS.getBatch(),letters.substring(count-1, count), 14.1f*lS.dX, (int)((lS.getyDimm()+1.85)*lS.dY));
     }
 
     public Timer getTimer() {
@@ -90,5 +96,19 @@ public class LettersRandomizer extends FoodRandomizer implements Renderable{
 
     public void setTimer(Timer timer) {
         this.timer = timer;
+    }
+
+    public void setSound(Sound sound) {
+        this.errorSound = sound;
+    }
+
+    public Sound getErrorSound() {
+        return errorSound;
+    }
+
+    @Override
+    public void dispose() {
+        errorSound.dispose();
+        timer.dispose();
     }
 }

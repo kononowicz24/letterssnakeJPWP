@@ -45,6 +45,7 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
         for (SnakePart snakePart: this) {
             snakePart.dispose();
         }
+        lettersRandomizer.dispose();
     }
 
     @Override
@@ -72,7 +73,6 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
         if (newHeady>=lS.getyDimm()) newHeady-=lS.getyDimm();
         AbstractPart abstractPart = new AbstractPart(lS, (int)newHeadx, (int)newHeady);//fixme vector2 would be ok
         if (belongs(abstractPart)) {
-            //todo przegrana
             this.die();
             lettersRandomizer.getTimer().stop();
             if (lS.getPreferenceRetriever().getIntPreference("LSJPWP_HISCORE")<score) {
@@ -91,8 +91,15 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
             consumed|=consume(iterator, foodConsumed); //one of each may be consumed -> OR gate
         }
         for(Food food: foodConsumed) { //zjedzone jedzenie usuwamy dopiero po sprawdzeniu i wylistowaniu ktore bylo zjedzone
-            if (food instanceof LetterFood)
+            if (food instanceof LetterFood) {
+
+                if (lettersRandomizer.getCount()-1 != lettersRandomizer.getLetters().indexOf(((LetterFood) food).getLetter())) {
+                    score-=30;
+                    lettersRandomizer.getErrorSound().play();
+                    lettersRandomizer.setCount(lettersRandomizer.getCount()-1);
+                }
                 lettersRandomizer.addFood(this);
+            }
             food.getSound().play();
             score+=food.value();
             food.dispose();

@@ -45,7 +45,7 @@ public class SingleplayerScreen implements Screen {
         gameOverOverlay.hide();
         playersSnake = new PlayerSnake(lS, foods, lettersRandomizer, gameOverOverlay);
         snakes.add(playersSnake);
-        stepDuration = 180L;
+        stepDuration = 1000L/lS.getPreferenceRetriever().getIntPreference("LSJPWP_LEVEL"); //
         lettersRandomizer.addFood(playersSnake);
         lettersRandomizer.addFoodRandomly(playersSnake);
     }

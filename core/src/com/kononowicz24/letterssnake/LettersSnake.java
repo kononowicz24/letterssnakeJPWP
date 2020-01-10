@@ -17,6 +17,7 @@ import com.kononowicz24.letterssnake.screens.IntroScreen;
 import com.kononowicz24.letterssnake.screens.MainMenuScreen;
 import com.kononowicz24.letterssnake.screens.Screen;
 import com.kononowicz24.letterssnake.screens.MenuState;
+import com.kononowicz24.letterssnake.screens.SettingsScreen;
 import com.kononowicz24.letterssnake.screens.SingleplayerScreen;
 
 
@@ -60,6 +61,11 @@ public class LettersSnake extends ApplicationAdapter {
             case ABOUT: {
                 screen.dispose();
                 screen = new AboutScreen(this);
+                break;
+            }
+            case SETTINGS: {
+                screen.dispose();
+                screen = new SettingsScreen(this);
                 break;
             }
         }
