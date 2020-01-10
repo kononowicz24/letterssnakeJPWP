@@ -2,7 +2,9 @@ package com.kononowicz24.letterssnake;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputMultiplexer;
+import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -10,6 +12,7 @@ import com.badlogic.gdx.input.GestureDetector;
 import com.kononowicz24.letterssnake.helpers.FontManager;
 import com.kononowicz24.letterssnake.interfaces.PlayServices;
 import com.kononowicz24.letterssnake.interfaces.PreferenceRetriever;
+import com.kononowicz24.letterssnake.screens.AboutScreen;
 import com.kononowicz24.letterssnake.screens.IntroScreen;
 import com.kononowicz24.letterssnake.screens.MainMenuScreen;
 import com.kononowicz24.letterssnake.screens.Screen;
@@ -54,11 +57,62 @@ public class LettersSnake extends ApplicationAdapter {
 				screen = new SingleplayerScreen(this);
 				break;
 			}
+            case ABOUT: {
+                screen.dispose();
+                screen = new AboutScreen(this);
+                break;
+            }
         }
         InputMultiplexer inputMultiplexer = new InputMultiplexer();
+        InputProcessor backProcessor = new InputProcessor() {
+            @Override
+            public boolean keyDown(int keycode) {
+                if ((keycode == Input.Keys.ESCAPE) || (keycode == Input.Keys.BACK)) {
+                    screen.goBack();
+                }
+                return false;
+            }
+
+            @Override
+            public boolean keyUp(int keycode) {
+                return false;
+            }
+
+            @Override
+            public boolean keyTyped(char character) {
+                return false;
+            }
+
+            @Override
+            public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+                return false;
+            }
+
+            @Override
+            public boolean touchUp(int screenX, int screenY, int pointer, int button) {
+                return false;
+            }
+
+            @Override
+            public boolean touchDragged(int screenX, int screenY, int pointer) {
+                return false;
+            }
+
+            @Override
+            public boolean mouseMoved(int screenX, int screenY) {
+                return false;
+            }
+
+            @Override
+            public boolean scrolled(int amount) {
+                return false;
+            }
+        };
         inputMultiplexer.addProcessor(screen);
         inputMultiplexer.addProcessor(new GestureDetector(screen));
+        inputMultiplexer.addProcessor(backProcessor);
         Gdx.input.setInputProcessor(inputMultiplexer);
+        Gdx.input.setCatchBackKey(true);
     }
 
 	@Override
@@ -74,9 +128,55 @@ public class LettersSnake extends ApplicationAdapter {
 		emptyTexture = new Texture("food.png");
         screen = new MainMenuScreen(this);
         InputMultiplexer inputMultiplexer = new InputMultiplexer();
+        InputProcessor backProcessor = new InputProcessor() {
+            @Override
+            public boolean keyDown(int keycode) {
+                if ((keycode == Input.Keys.ESCAPE) || (keycode == Input.Keys.BACK)) {
+                    screen.goBack();
+                }
+                return false;
+            }
+
+            @Override
+            public boolean keyUp(int keycode) {
+                return false;
+            }
+
+            @Override
+            public boolean keyTyped(char character) {
+                return false;
+            }
+
+            @Override
+            public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+                return false;
+            }
+
+            @Override
+            public boolean touchUp(int screenX, int screenY, int pointer, int button) {
+                return false;
+            }
+
+            @Override
+            public boolean touchDragged(int screenX, int screenY, int pointer) {
+                return false;
+            }
+
+            @Override
+            public boolean mouseMoved(int screenX, int screenY) {
+                return false;
+            }
+
+            @Override
+            public boolean scrolled(int amount) {
+                return false;
+            }
+        };
         inputMultiplexer.addProcessor(screen);
         inputMultiplexer.addProcessor(new GestureDetector(screen));
+        inputMultiplexer.addProcessor(backProcessor);
         Gdx.input.setInputProcessor(inputMultiplexer);
+        Gdx.input.setCatchBackKey(true);
 	}
 
 	@Override

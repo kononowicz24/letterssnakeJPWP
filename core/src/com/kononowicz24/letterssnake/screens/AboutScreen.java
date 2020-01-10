@@ -2,58 +2,30 @@ package com.kononowicz24.letterssnake.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.kononowicz24.letterssnake.LettersSnake;
-import com.kononowicz24.letterssnake.layoutelems.MenuButton;
 
 /**
  * Created by k24 on 12.06.18.
  */
 
-public class MainMenuScreen implements Screen {
+public class AboutScreen implements Screen {
     private LettersSnake lS;
-    private Texture rS3_tex;
-    private MenuButton playButton;
-    //private MenuButton multiButton;
-    private MenuButton achievButton;
-    private MenuButton boardsButton;
-    private MenuButton settButton;
-    private MenuButton aboutButton;
-
-    public MainMenuScreen(LettersSnake lS) {
+    private Texture logoK24;
+    public AboutScreen(LettersSnake lS) {
         this.lS = lS;
-        playButton = new MenuButton(lS, "menu_play.png", MenuState.PLAYARENA, 3*lS.dX, 22*lS.dY);
-        //multiButton = new MenuButton(lS, "menu_multi.png", MenuState.PLAYARENA_MULTI, 13*lS.dX, 22*lS.dY);
-        achievButton = new MenuButton(lS, "menu_achiev.png", MenuState.POP_ACHIEV, 3*lS.dX, 12*lS.dY);
-        boardsButton = new MenuButton(lS, "menu_hisc.png", MenuState.POP_BOARDS, 13*lS.dX, 12*lS.dY);
-        settButton = new MenuButton(lS, "menu_sett.png", MenuState.SETTINGS, 3*lS.dX, 2*lS.dY);
-        aboutButton = new MenuButton(lS, "menu_about.png", MenuState.ABOUT, 13*lS.dX, 2*lS.dY);
-        //lS.getPlayServices().signIn();
-        rS3_tex = new Texture(Gdx.files.internal("logors3.png"));
+        logoK24 = new Texture(Gdx.files.internal("logok24.png"));
     }
-
     @Override
     public void dispose() {
-        playButton.dispose();
-        //multiButton.dispose();
-        aboutButton.dispose();
-        achievButton.dispose();
-        settButton.dispose();
-        boardsButton.dispose();
-        rS3_tex.dispose();
+        logoK24.dispose();
     }
-
     @Override
     public void render() {
-        lS.getBatch().draw(lS.bgTexOn, 0,0, lS.xR, lS.yR);
-        lS.getBatch().draw(rS3_tex, 0,0, lS.xR, lS.yR);
-        playButton.draw(lS.getBatch());
-        //multiButton.draw(lS.getBatch());
-        achievButton.draw(lS.getBatch());
-        boardsButton.draw(lS.getBatch());
-        settButton.draw(lS.getBatch());
-        aboutButton.draw(lS.getBatch());
-        //lS.getFontManager().font1dX.draw(lS.getBatch(),"QWERTYĄĆĘŁŃŚÓŻŹąćęłńśżźµ", 2*lS.dX, 3*lS.dX); //debug
+            lS.getBatch().draw(lS.bgTexOn, 0, 0, lS.xR, lS.yR);
+            lS.getBatch().draw(logoK24, 0, 0, lS.xR, lS.yR);
     }
 
     @Override
@@ -78,12 +50,6 @@ public class MainMenuScreen implements Screen {
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
-        playButton.touch(screenX, screenY);
-        //multiButton.touch(screenX, screenY);
-        achievButton.touch(screenX, screenY);
-        boardsButton.touch(screenX, screenY);
-        settButton.touch(screenX,screenY);
-        aboutButton.touch(screenX,screenY);
         return false;
     }
 
@@ -149,7 +115,7 @@ public class MainMenuScreen implements Screen {
 
     @Override
     public void goBack() {
-
+        lS.changeScreen(MenuState.MAIN_MENU);
     }
 
     @Override

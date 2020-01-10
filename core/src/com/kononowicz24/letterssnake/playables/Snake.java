@@ -74,11 +74,12 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
         if (belongs(abstractPart)) {
             //todo przegrana
             this.die();
+            lettersRandomizer.getTimer().stop();
             if (lS.getPreferenceRetriever().getIntPreference("LSJPWP_HISCORE")<score) {
                 lS.getPreferenceRetriever().setIntPreference("LSJPWP_HISCORE", score);
             }
             Gdx.app.log("RS", "przegrana");
-            gameOverOverlay.show();
+            gameOverOverlay.show(score);
         }
         this.add(0,new SnakePart(lS, (int)newHeadx, (int)newHeady, head.getTexture()));
 
@@ -134,5 +135,9 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
     }
     public boolean isDead() {
         return dead;
+    }
+
+    public int getScore() {
+        return score;
     }
 }

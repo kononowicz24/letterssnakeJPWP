@@ -47,9 +47,11 @@ public class MenuButton extends Sprite implements Disposable, Renderable {
                     break;
                 }
                 case POP_ACHIEV: {
+                    lS.getPlayServices().showAchievements();
                     break;
                 }
                 case POP_BOARDS: {
+                    lS.getPlayServices().showScore();
                     break;
                 }
                 case ABOUT: {

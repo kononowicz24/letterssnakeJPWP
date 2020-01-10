@@ -184,6 +184,7 @@ public class SingleplayerScreen implements Screen {
             food.render();
         }
         boundary.render();
+        lettersRandomizer.render();
 
         if (TimeUtils.timeSinceMillis(millis)>stepDuration) {//zamienione moze zadziala
             if (playersSnake.isDead() == false) {
@@ -221,7 +222,9 @@ public class SingleplayerScreen implements Screen {
 
     @Override
     public void goBack() {
-
+        if (playersSnake.isDead()) lS.changeScreen(MenuState.PLAYARENA);
+        else
+            lS.changeScreen(MenuState.MAIN_MENU);
     }
 
     @Override

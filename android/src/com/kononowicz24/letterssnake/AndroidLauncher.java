@@ -26,6 +26,7 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.games.AchievementsClient;
 import com.google.android.gms.games.AnnotatedData;
@@ -102,6 +103,8 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 
 		setContentView(layout);
 		startAdvertising(admobView);
+		mGoogleSignInClient = GoogleSignIn.getClient(this,
+				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
 	}
 
 	private AdView createAdView() {
@@ -228,7 +231,7 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 		switch (achievement) {
 			case SEVENYROLD: {
 				//mAchievementsClient.unlock(getString(R.string.achievement_you_have_the_driving_license));
-				mOutbox.mLicenseAchievement = true;
+				mOutbox.m7yrAchievement = true;
 				break;
 			}
 		}
@@ -237,13 +240,13 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 
 	@Override
 	public void submitScore(long highScore) {
-		if (mOutbox.mHS>highScore) mOutbox.mHS = highScore;
+		//if (mOutbox.mHS>highScore) mOutbox.mHS = highScore;
 		pushAccomplishments();
 	}
 
 	@Override
 	public void submitTime(float time) {
-		if (mOutbox.mTime<time) mOutbox.mTime = time;
+		//if (mOutbox.mTime<time) mOutbox.mTime = time;
 		pushAccomplishments();
 	}
 
@@ -305,34 +308,14 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 			// can't push to the cloud, try again later
 			return;
 		}
-		if (mOutbox.mLicenseAchievement) {
-			mAchievementsClient.unlock(getString(R.string.achievement_polyglot));
-			mOutbox.mLicenseAchievement = false;
-		}
-		if (mOutbox.m19secondsAchievement) {
+		if (mOutbox.m7yrAchievement) {
 			mAchievementsClient.unlock(getString(R.string.achievement_sevenyearold));
-			mOutbox.m19secondsAchievement = false;
-		}
-		if (mOutbox.mCheaterAchievement) {
-			mAchievementsClient.unlock(getString(R.string.achievement_snake_player));
-			mOutbox.mCheaterAchievement = false;
-		}
-		if (mOutbox.mItchyAchievement>0) {
-			mAchievementsClient.increment(getString(R.string.achievement_snake_pro), mOutbox.mItchyAchievement);
-			mOutbox.mItchyAchievement = 0;
-		}
-		if (mOutbox.mVeteranAchievement>0) {
-			mAchievementsClient.increment(getString(R.string.achievement_snake_veteran), mOutbox.mVeteranAchievement);
-			mOutbox.mVeteranAchievement = 0;
+			mOutbox.m7yrAchievement = false;
 		}
 
-		if (mOutbox.mTime!=Long.MAX_VALUE) {
-			mLeaderboardsClient.submitScore(getString(R.string.leaderboard_alphabet_time_attack),
-					mOutbox.mHS);
-			mOutbox.mTime = Long.MAX_VALUE;
 			//Toast.makeText(getContext(), "Updating the score", Toast.LENGTH_LONG).show();
 			Log.w(TAG, "UPDATING SCORE");
-		}
+
 	}
 
 	@Override
@@ -521,20 +504,10 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 	}
 
 	private class AccomplishmentsOutbox {
-		boolean mLicenseAchievement = false;
-		boolean m19secondsAchievement = false;
-		boolean mCheaterAchievement = false;
-		int mItchyAchievement = 0;
-		int mVeteranAchievement = 0;
-		long mHS = Long.MIN_VALUE;
-		float mTime = Float.MAX_VALUE;
+		boolean m7yrAchievement = false; //todo
 
 		boolean isEmpty() {
-			return  Float.compare(mTime,Float.MAX_VALUE) == 0 &&
-					!mLicenseAchievement &&
-					!m19secondsAchievement &&
-					mItchyAchievement==0 &&
-					mVeteranAchievement==0;
+			return  m7yrAchievement;
 		}
 
 	}

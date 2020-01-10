@@ -6,6 +6,6 @@ package com.kononowicz24.letterssnake.helpers;
 
 public interface Hideable {
     public void hide();
-    public void show();
+    public void show(int score);
     public void semiVisible();
 }

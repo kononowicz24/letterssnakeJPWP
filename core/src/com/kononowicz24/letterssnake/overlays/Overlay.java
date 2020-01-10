@@ -16,6 +16,7 @@ import com.kononowicz24.letterssnake.helpers.Renderable;
 public abstract class Overlay implements Renderable, Disposable, Hideable, InputProcessor, GestureListener {
     protected boolean visible;
     protected boolean semiVisible;
+    protected int score;
     protected LettersSnake lS;
     public Overlay(LettersSnake lS) {
         this.lS = lS;
@@ -127,8 +128,9 @@ public abstract class Overlay implements Renderable, Disposable, Hideable, Input
     }
 
     @Override
-    public void show() {
+    public void show(int score) {
         visible = true;
+        this.score = score;
     }
 
     @Override
