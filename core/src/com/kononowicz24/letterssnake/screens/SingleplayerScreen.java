@@ -258,4 +258,12 @@ public class SingleplayerScreen implements Screen {
     public void goCancel() {
 
     }
+
+    public long getStepDuration() {
+        return stepDuration;
+    }
+
+    public void setStepDuration(long stepDuration) {
+        this.stepDuration = stepDuration;
+    }
 }

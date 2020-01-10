@@ -31,7 +31,7 @@ public class LetterFood extends Food {
     public void render() {
         //super.render();//todo change completely
         //render letter
-        lS.getFontManager().font1dX.draw(lS.getBatch(),String.valueOf(letter), (x+1)*lS.dX, (y+2)*lS.dX);
+        lS.getFontManager().font1dX.draw(lS.getBatch(),String.valueOf(letter), (x+1)*lS.dX, (int)((y+1.85)*lS.dY));
     }
 
     @Override

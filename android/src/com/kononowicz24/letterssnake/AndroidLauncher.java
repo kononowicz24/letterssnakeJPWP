@@ -26,7 +26,6 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.games.AchievementsClient;
 import com.google.android.gms.games.AnnotatedData;
@@ -38,18 +37,14 @@ import com.google.android.gms.games.Player;
 import com.google.android.gms.games.PlayersClient;
 import com.google.android.gms.games.event.Event;
 import com.google.android.gms.games.event.EventBuffer;
-import com.google.android.gms.games.leaderboard.ScoreSubmissionData;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.games.AchievementsClient;
-import com.google.android.gms.games.LeaderboardsClient;
 import com.kononowicz24.letterssnake.interfaces.Achievement;
 import com.kononowicz24.letterssnake.interfaces.PlayServices;
-import com.kononowicz24.letterssnake.interfaces.PrefStringTokens;
+import com.kononowicz24.letterssnake.interfaces.PrefTokens;
 import com.kononowicz24.letterssnake.interfaces.PreferenceRetriever;
 
 public class AndroidLauncher extends AndroidApplication implements PreferenceRetriever, PlayServices {
@@ -62,7 +57,6 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 
 
 	private static final String AD_UNIT_ID = "ca-app-pub-6060245360846265/3704078585";
-	//private static final String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/developer?id=TheInvader360";
 	protected AdView adView;
 	protected View gameView;
 	// Client used to sign in with Google APIs
@@ -124,7 +118,7 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 	}
 
 	private View createGameView(AndroidApplicationConfiguration cfg) {
-		gameView = initializeForView(new com.kononowicz24.letterssnake.LettersSnake(), cfg);
+		gameView = initializeForView(new com.kononowicz24.letterssnake.LettersSnake(this, this), cfg);
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
 		params.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM, RelativeLayout.TRUE);
 		params.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);
@@ -158,23 +152,29 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 		if (adView != null) adView.destroy();
 		super.onDestroy();
 	}
-	@Override
-	public int getIntPreference(String token) {
-		return 0;
-	}
+    @Override
+    public int getIntPreference(String key) {
+        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+        //int defaultValue = getResources().getInteger(R.integer.saved_high_score_default);
+        return sharedPref.getInt(key, 0);
+        //return highScore;
+    }
+    @Override
+    public void setIntPreference(String key, int value) {
+        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putInt(key, value);
+        editor.apply(); //.commit() jak nie zadziala
+    }
 
 	@Override
-	public void setIntPreference(String token, int value) {
-
-	}
-
-	@Override
-	public void setStringPreference(PrefStringTokens token, String value) {
+	public void setStringPreference(PrefTokens token, String value) {
 		Context context = getContext();
 		SharedPreferences sharedPref = context.getSharedPreferences("prefsLS", MODE_PRIVATE);
 		SharedPreferences.Editor editor = sharedPref.edit();
 		switch (token) {
 			//case PLAYERS_BUS: {editor.putString("players_bus",value); break;}
+
 			default: {break;}
 		}
 
@@ -183,7 +183,7 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 	}
 
 	@Override
-	public String getStringPreference(PrefStringTokens token) {
+	public String getStringPreference(PrefTokens token) {
 		Context context = getContext();
 		SharedPreferences sharedPref = context.getSharedPreferences("prefsLS", MODE_PRIVATE);
 		String defaultValue = "";

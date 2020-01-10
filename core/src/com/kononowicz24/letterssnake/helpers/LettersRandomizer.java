@@ -37,6 +37,7 @@ public class LettersRandomizer extends FoodRandomizer {
         if (count>=letters.length()) {
             count=0;
             //todo google play achievement whole alphabet
+
         }
         //while (lettersOnScreen.get(count) == false) { //todo refactor
             foods.add(new LetterFood(lS, (int) avFoodPos.get(ordinal).x, (int) avFoodPos.get(ordinal).y, letters.charAt(count))); //todo check if not in

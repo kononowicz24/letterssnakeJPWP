@@ -8,6 +8,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.input.GestureDetector;
 import com.kononowicz24.letterssnake.helpers.FontManager;
+import com.kononowicz24.letterssnake.interfaces.PlayServices;
+import com.kononowicz24.letterssnake.interfaces.PreferenceRetriever;
 import com.kononowicz24.letterssnake.screens.IntroScreen;
 import com.kononowicz24.letterssnake.screens.MainMenuScreen;
 import com.kononowicz24.letterssnake.screens.Screen;
@@ -18,6 +20,8 @@ import com.kononowicz24.letterssnake.screens.SingleplayerScreen;
 public class LettersSnake extends ApplicationAdapter {
 	private SpriteBatch batch;
     private FontManager fontManager;
+    private PreferenceRetriever preferenceRetriever;
+    private PlayServices playServices;
 	public Texture bgTexOff;
 	public Texture bgTexOn;
 	public Texture emptyTexture;
@@ -27,6 +31,11 @@ public class LettersSnake extends ApplicationAdapter {
     public float dY;
 	private int xDimm=22, yDimm=39; //todo, moze bedzie mozna zrobic zmienne wymiary planszy, nie wiem
 	private Screen screen;
+
+    public LettersSnake(PreferenceRetriever preferenceRetriever, PlayServices playServices) {
+        this.preferenceRetriever = preferenceRetriever;
+        this.playServices = playServices;
+    }
 
     public void changeScreen(MenuState state) {
         switch (state) {
@@ -106,6 +115,15 @@ public class LettersSnake extends ApplicationAdapter {
         return fontManager;
     }
     public int getLevel() {
-        return 7;
+        //return 7;
+        return getPreferenceRetriever().getIntPreference("LSJPWP_LEVEL");
+    }
+
+    public PreferenceRetriever getPreferenceRetriever() {
+        return preferenceRetriever;
+    }
+
+    public PlayServices getPlayServices() {
+        return playServices;
     }
 }

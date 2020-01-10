@@ -11,7 +11,7 @@ import com.kononowicz24.letterssnake.layoutelems.MenuButton;
 public class MainMenuScreen implements Screen {
     private LettersSnake lS;
     private MenuButton playButton;
-    private MenuButton multiButton;
+    //private MenuButton multiButton;
     private MenuButton achievButton;
     private MenuButton boardsButton;
     private MenuButton settButton;
@@ -20,7 +20,7 @@ public class MainMenuScreen implements Screen {
     public MainMenuScreen(LettersSnake lS) {
         this.lS = lS;
         playButton = new MenuButton(lS, "menu_play.png", MenuState.PLAYARENA, 3*lS.dX, 22*lS.dY);
-        multiButton = new MenuButton(lS, "menu_multi.png", MenuState.PLAYARENA_MULTI, 13*lS.dX, 22*lS.dY);
+        //multiButton = new MenuButton(lS, "menu_multi.png", MenuState.PLAYARENA_MULTI, 13*lS.dX, 22*lS.dY);
         achievButton = new MenuButton(lS, "menu_achiev.png", MenuState.POP_ACHIEV, 3*lS.dX, 12*lS.dY);
         boardsButton = new MenuButton(lS, "menu_hisc.png", MenuState.POP_BOARDS, 13*lS.dX, 12*lS.dY);
         settButton = new MenuButton(lS, "menu_sett.png", MenuState.SETTINGS, 3*lS.dX, 2*lS.dY);
@@ -30,7 +30,7 @@ public class MainMenuScreen implements Screen {
     @Override
     public void dispose() {
         playButton.dispose();
-        multiButton.dispose();
+        //multiButton.dispose();
         aboutButton.dispose();
         achievButton.dispose();
         settButton.dispose();
@@ -39,14 +39,14 @@ public class MainMenuScreen implements Screen {
 
     @Override
     public void render() {
-        lS.getBatch().draw(lS.bgTexOn, 0,0,lS.xR, lS.yR);
+        lS.getBatch().draw(lS.bgTexOn, 0,0, lS.xR, lS.yR);
         playButton.draw(lS.getBatch());
-        multiButton.draw(lS.getBatch());
+        //multiButton.draw(lS.getBatch());
         achievButton.draw(lS.getBatch());
         boardsButton.draw(lS.getBatch());
         settButton.draw(lS.getBatch());
         aboutButton.draw(lS.getBatch());
-        lS.getFontManager().font1dX.draw(lS.getBatch(),"QWERTYĄĆĘŁŃŚÓŻŹąćęłńśżźµ", 2*lS.dX, 3*lS.dX);
+        //lS.getFontManager().font1dX.draw(lS.getBatch(),"QWERTYĄĆĘŁŃŚÓŻŹąćęłńśżźµ", 2*lS.dX, 3*lS.dX); //debug
     }
 
     @Override
@@ -72,7 +72,7 @@ public class MainMenuScreen implements Screen {
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
         playButton.touch(screenX, screenY);
-        multiButton.touch(screenX, screenY);
+        //multiButton.touch(screenX, screenY);
         achievButton.touch(screenX, screenY);
         boardsButton.touch(screenX, screenY);
         settButton.touch(screenX,screenY);

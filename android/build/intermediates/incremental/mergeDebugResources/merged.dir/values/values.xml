@@ -34,11 +34,16 @@
 </attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
     <item name="adId" type="id"/>
     <integer name="google_play_services_version">11910000</integer>
-    <string name="achievement_prime">YOUR_ACHIEVEMENT_PRIME_ID</string>
-    <string name="achievement_really_bored">YOUR_ACHIEVEMENT_REALLY_BORED_ID</string>
-    <string name="app_id">YOUR_APP_ID</string>
-    <string name="app_name">Retro Snake 2</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">e6da8872-25c1-4fd9-add8-a3c2ccf2610b</string>
+    <string name="achievement_polyglot" translatable="false">CgkIgNG9l7EJEAIQBA</string>
+    <string name="achievement_sevenyearold" translatable="false">CgkIgNG9l7EJEAIQAA</string>
+    <string name="achievement_snake_player" translatable="false">CgkIgNG9l7EJEAIQAQ</string>
+    <string name="achievement_snake_pro" translatable="false">CgkIgNG9l7EJEAIQAg</string>
+    <string name="achievement_snake_veteran" translatable="false">CgkIgNG9l7EJEAIQAw</string>
+    <string name="achievements_exception">There was an issue communicating with achievements.</string>
+    <string name="app_id" translatable="false">322440226944</string>
+    <string name="app_name">Letters Snake</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6060245360846265/3704078585</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">92c8967d-538d-4a63-bf4a-df8ad220efb2</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -65,6 +70,11 @@
     <string name="google_app_id" translatable="false">1:1085611589035:android:d778615766a0a07e</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCuBeUBZjihQVoo5c8M6-oFQn6lEuE2KGM</string>
     <string name="google_storage_bucket" translatable="false">letterssnake-9a0dd.appspot.com</string>
+    <string name="leaderboard_alphabet_time_attack" translatable="false">CgkIgNG9l7EJEAIQBQ</string>
+    <string name="leaderboard_high_score" translatable="false">CgkIgNG9l7EJEAIQBg</string>
+    <string name="leaderboards_exception">There was an issue communicating with leaderboards.</string>
+    <string name="players_exception">There was an issue communicating with players.</string>
+    <string name="playstore_link">https://play.google.com/store/apps/details?id=com.kononowicz24.letterssnake</string>
     <string name="project_id" translatable="false">letterssnake-9a0dd</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
@@ -73,6 +83,10 @@
     <string name="s5">Create calendar event</string>
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="s7">Test Ad</string>
+    <string name="signin_other_error">Other sign-in error.</string>
+    <string name="status_exception_error">%1$s (status %2$d). %3$s.</string>
+    <string name="unknown">unknown</string>
+    <string name="your_progress_will_be_uploaded">Your existing achievements and score will be uploaded shortly.</string>
     <style name="GdxTheme" parent="android:Theme">
 		<item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>

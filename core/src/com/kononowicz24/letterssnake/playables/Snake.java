@@ -74,6 +74,9 @@ public abstract class Snake extends ArrayList<SnakePart> implements Renderable, 
         if (belongs(abstractPart)) {
             //todo przegrana
             this.die();
+            if (lS.getPreferenceRetriever().getIntPreference("LSJPWP_HISCORE")<score) {
+                lS.getPreferenceRetriever().setIntPreference("LSJPWP_HISCORE", score);
+            }
             Gdx.app.log("RS", "przegrana");
             gameOverOverlay.show();
         }

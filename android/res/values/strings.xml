@@ -11,5 +11,4 @@
     <string name="status_exception_error">%1$s (status %2$d). %3$s.</string>
     <string name="signin_other_error">Other sign-in error.</string>
     <string name="unknown">unknown</string>
-
 </resources>

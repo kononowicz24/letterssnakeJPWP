@@ -1,4 +1,0 @@
-#Tue Dec 03 23:27:53 CET 2019
-base.0=/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/k24/AndroidStudioProjects/LSJPWP/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
