@@ -18,7 +18,17 @@ public class CenteredText implements Renderable, Disposable {
     private final BitmapFont font;
     private final GlyphLayout layout;
 
-
+    /**
+     * not used
+     * @param lS
+     * @param text
+     * @param bitmapFont
+     * @param color
+     * @param xcent
+     * @param ycent
+     * @param xsize
+     * @param ysize
+     */
     public CenteredText(LettersSnake lS, String text, BitmapFont bitmapFont, Color color, int xcent, int ycent, int xsize, int ysize) {
         this.lS = lS;
         this.text = text;

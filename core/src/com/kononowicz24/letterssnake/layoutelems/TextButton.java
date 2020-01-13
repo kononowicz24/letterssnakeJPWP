@@ -19,6 +19,16 @@ public class TextButton extends Sprite implements Disposable, Renderable {
     private Action action;
     private Rectangle area;
     private Screen activeScreen;
+
+    /**
+     * not used
+     * @param lS
+     * @param napis
+     * @param action
+     * @param x
+     * @param y
+     * @param activeScreen
+     */
     public TextButton(LettersSnake lS, String napis, Action action, float x, float y, Screen activeScreen) {
         super(new Texture("boundary.png"));
         this.lS=lS;

@@ -13,16 +13,27 @@ import com.kononowicz24.letterssnake.helpers.Renderable;
 public class Boundary implements Renderable, Disposable {
     private Texture boundary;
     private LettersSnake lS;
+
+    /**
+     * Creates black box instance used to create boundary
+     * @param lS main game object
+     */
     public Boundary(LettersSnake lS) {
         boundary = new Texture("bound.png");
         this.lS = lS;
     }
 
+    /**
+     * called on exit, required by LibGDX
+     */
     @Override
     public void dispose() {
         boundary.dispose();
     }
 
+    /**
+     * Renders a box sized by p1,p2
+     */
     @Override
     public void render() {
         Vector2 p1 = new Vector2(lS.dX,lS.dY);

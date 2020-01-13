@@ -69,6 +69,14 @@ public class SingleplayerScreen implements Screen {
         return false;
     }
 
+    /**
+     * Handles tapping on screen
+     * @param screenX x where tapped
+     * @param screenY y where tapped
+     * @param pointer not used
+     * @param button not used
+     * @return
+     */
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         if (!gameOverOverlay.isVisible()) {
@@ -114,6 +122,13 @@ public class SingleplayerScreen implements Screen {
         return false;
     }
 
+    /**
+     * Used to handle flinging over the screen
+     * @param velocityX X velocity of the fling
+     * @param velocityY Y velocity of the fling
+     * @param button not used
+     * @return
+     */
     @Override
     public boolean fling(float velocityX, float velocityY, int button) {
         if (!gameOverOverlay.isVisible()) {
@@ -161,6 +176,9 @@ public class SingleplayerScreen implements Screen {
 
     }
 
+    /**
+     * required by LIBGDX
+     */
     @Override
     public void dispose() {
         for (Snake snake: snakes) {
@@ -173,6 +191,9 @@ public class SingleplayerScreen implements Screen {
         gameOverOverlay.dispose();
     }
 
+    /**
+     * Renders SinglePlayerScreen and handles different time steps
+     */
     @Override
     public void render() {
         lS.getBatch().draw(lS.bgTexOn, 0, 0, lS.xR, lS.yR);
@@ -220,6 +241,9 @@ public class SingleplayerScreen implements Screen {
         return lettersRandomizer;
     }
 
+    /**
+     * Handles pressing hardware back key
+     */
     @Override
     public void goBack() {
         if (playersSnake.isDead()) lS.changeScreen(MenuState.PLAYARENA);

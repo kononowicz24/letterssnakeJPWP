@@ -56,7 +56,6 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 	//	initialize(new LettersSnake(), config);
 	//}
 
-
 	private static final String AD_UNIT_ID = "ca-app-pub-6060245360846265/3704078585";
 	protected AdView adView;
 	protected View gameView;
@@ -78,6 +77,10 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 	private static final String TAG = "LSJPWP_GPLAY";
 	private final AccomplishmentsOutbox mOutbox = new AccomplishmentsOutbox();
 
+	/**
+	 * Inherited from libGDX template - executes after constructor
+	 * @param savedInstanceState
+	 */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -107,6 +110,10 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 				new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN).build());
 	}
 
+	/**
+	 * Creates AdView for game elements layout
+	 * @return adview as a banner on top of the screen
+	 */
 	private AdView createAdView() {
 		adView = new AdView(this);
 		adView.setAdSize(AdSize.SMART_BANNER);
@@ -120,6 +127,11 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 		return adView;
 	}
 
+	/**
+	 * creates libGDX game screen element
+	 * @param cfg
+	 * @return game screen element on the bottom of the screen
+	 */
 	private View createGameView(AndroidApplicationConfiguration cfg) {
 		gameView = initializeForView(new com.kononowicz24.letterssnake.LettersSnake(this, this), cfg);
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
@@ -130,6 +142,10 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 		return gameView;
 	}
 
+	/**
+	 * starts ads display
+	 * @param adView adView to start showing
+	 */
 	private void startAdvertising(AdView adView) {
 		AdRequest adRequest = new AdRequest.Builder()
 				.addTestDevice("54455453ABD591700921047F922DB781")
@@ -155,6 +171,12 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 		if (adView != null) adView.destroy();
 		super.onDestroy();
 	}
+
+	/**
+	 * Returns int value form SharedPreferences
+	 * @param key name of the preference
+	 * @return value of the preference
+	 */
     @Override
     public int getIntPreference(String key) {
         SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
@@ -162,6 +184,12 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
         return sharedPref.getInt(key, 0);
         //return highScore;
     }
+
+	/**
+	 * Sets int value to SharedPreferences
+	 * @param key name of the preference
+	 * @param value value of the preference
+	 */
     @Override
     public void setIntPreference(String key, int value) {
         SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
@@ -195,12 +223,19 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 			default: return defaultValue;
 		}
 	}
+
+	/**
+	 * Signs in to Google play games
+	 */
 	@Override
 	public void signIn() {
 		startActivityForResult(mGoogleSignInClient.getSignInIntent(), RC_SIGN_IN);
 		//pushAccomplishments();
 	}
 
+	/**
+	 * Signs out of Google play games
+	 */
 	@Override
 	public void signOut() {
 		if (!isSignedIn()) {
@@ -220,12 +255,19 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 				});
 	}
 
+	/**
+	 * Opens Google Play with this game screen
+	 */
 	@Override
 	public void rateGame() {
 		String str = getResources().getString(R.string.playstore_link);
 		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(str)));
 	}
 
+	/**
+	 * unlocks Google Play Games achievement
+	 * @param achievement achievement to be unlocked
+	 */
 	@Override
 	public void unlockAchievement(Achievement achievement) {
 		switch (achievement) {
@@ -477,6 +519,10 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 		});
 	}
 
+	/**
+	 * gets app current version code
+	 * @return int version number
+	 */
 	@Override
 	public int getVersionCode() {
 		int versionNumber;
@@ -490,6 +536,10 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 		return versionNumber;
 	}
 
+	/**
+	 * gets game current version name
+	 * @return string version name
+	 */
 	@Override
 	public String getVersionName() {
 		String versionName;
@@ -498,7 +548,7 @@ public class AndroidLauncher extends AndroidApplication implements PreferenceRet
 			versionName = pinfo.versionName;
 		} catch (PackageManager.NameNotFoundException e) {
 			versionName = getResources().getString(R.string.unknown);
-			Log.w("BDR_V", "", e);
+			Log.w("LS_V", "", e);
 		}
 		return versionName;
 	}

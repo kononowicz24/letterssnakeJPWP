@@ -23,6 +23,14 @@ public class FoodRandomizer {
     protected ArrayList<Snake> snakes;
     private int counter;
     protected Vector2 screenDims;
+
+    /**
+     * Creates generic food factory
+     * @param lS main game object
+     * @param snakes list of snakes on the field
+     * @param foods list of foods on the field
+     * @param screenDims vector2 field size
+     */
     public FoodRandomizer(LettersSnake lS, ArrayList<Snake> snakes, ArrayList<Food> foods, Vector2 screenDims) {
         this.lS = lS;
         this.foods = foods;
@@ -30,6 +38,11 @@ public class FoodRandomizer {
         this.screenDims = screenDims;
         counter=0;
     }
+
+    /**
+     * Calculates vacant positions on the field
+     * @return List of vacant positions
+     */
     protected ArrayList<Part> availablePositions() {
         ArrayList<Part> result = new ArrayList<Part>();
         for (int i=0; i<screenDims.x; i++) {
@@ -61,6 +74,11 @@ public class FoodRandomizer {
         }
         return result;
     }
+
+    /**
+     * adds generic food to the field
+     * @param snake snake for which to generate food (used to calculate price of the timed food)
+     */
     public void addFood(Snake snake) {
         ArrayList<Part> avFoodPos = availablePositions();
         Random random = new Random();

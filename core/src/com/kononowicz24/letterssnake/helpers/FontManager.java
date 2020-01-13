@@ -15,6 +15,11 @@ public class FontManager implements Disposable{
     private FreeTypeFontGenerator.FreeTypeFontParameter parameter;
     public BitmapFont font1dX;
     public BitmapFont font2dX_inv;
+
+    /**
+     * Manages all writings and fonts
+     * @param lS main game object
+     */
     public FontManager(LettersSnake lS) {
         mainMenuFontGenerator = new FreeTypeFontGenerator(Gdx.files.internal("fonts/PressStart2P.ttf"));
         parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();

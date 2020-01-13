@@ -13,6 +13,12 @@ public class GenericFood extends Food {
         super(lS, x, y, tex);
     }
 
+    /**
+     * Creates Generic food on screen (as on Nokia phone)
+     * @param lS main game object
+     * @param x x where to put it
+     * @param y y where to put it
+     */
     public GenericFood(LettersSnake lS, int x, int y) {
         super(lS, x, y, new Texture(Gdx.files.internal("food.png"))); ////
         this.setSound(Gdx.audio.newSound(Gdx.files.internal("sound.ogg")));

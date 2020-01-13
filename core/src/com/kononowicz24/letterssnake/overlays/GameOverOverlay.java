@@ -12,17 +12,29 @@ import com.kononowicz24.letterssnake.playables.Snake;
 public class GameOverOverlay extends Overlay {
     private Texture texture;
     //private Snake snake;
+
+    /**
+     * Creates Game Over overlay telling the score, hiscore and "GAME OVER" caption
+     * @param lS
+     */
     public GameOverOverlay(LettersSnake lS) {
         super(lS);
         texture = new Texture(Gdx.files.internal("bound.png"));
         //this.snake=snake;
     }
+
+    /**
+     * required by LibGDX
+     */
     @Override
     public void dispose() {
         super.dispose();
         texture.dispose();
     }
 
+    /**
+     * renders the overlay on screen
+     */
     @Override
     public void render() {
         if (visible) {

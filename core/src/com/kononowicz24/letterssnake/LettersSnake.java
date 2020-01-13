@@ -36,11 +36,20 @@ public class LettersSnake extends ApplicationAdapter {
 	private int xDimm=22, yDimm=39; //todo, moze bedzie mozna zrobic zmienne wymiary planszy, nie wiem
 	private Screen screen;
 
+    /**
+     * Creates main game object
+     * @param preferenceRetriever AndroidLauncher object to interface android with core
+     * @param playServices AndroidLauncher object to interface android with core
+     */
     public LettersSnake(PreferenceRetriever preferenceRetriever, PlayServices playServices) {
         this.preferenceRetriever = preferenceRetriever;
         this.playServices = playServices;
     }
 
+    /**
+     * Changes screen to another
+     * @param state which state to be at
+     */
     public void changeScreen(MenuState state) {
         switch (state) {
             case INTRO: {
